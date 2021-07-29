@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            GOLDEN APPLE GAME
+        </title>
+
+        <style>
+            body{text-align: center;}
+            img{
+                width:20%;
+                flex-wrap:wrap;
+                left:0%;
+                transition:.2s;
+                animation-name:fadeIn;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+               
+            }
+            img:hover{
+                transform: scale(1.5);
+            }
+            img:active{
+                transform: scale(3);
+                transition:.2s;
+            }
+            @keyframes fadeIn{
+                0%{
+                    opacity: 0;
+                    transform: scale(0);
+                }
+                100%{
+                    opacity: 1;
+                    transform:scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SELL GOLDEN APPLES TO EARN CASH</h1>
+        <img src="assets/img/1024px-Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg"alt="" width="500" onclick="addMoney(amountPerClick)">
+        <h3>Current Cash: $<span id="money">0</span></h3>
+        <div class="upgradeArea">
+            <div class="priceOfGoldenApple">
+                <p>
+                    Your Golden Apple Sells For $<span id="currentApplePrice">10</span>
+                </p>
+                <button onclick="increasingSellingPrice();">
+                    Click to make your apples to worth more! <span id="priceSpan">($0)</span>
+                </button>
+                <br/>
+                <br/>
+                <button onclick="resetGame();">
+                    Reset Game
+                </button>
+                <br/>
+                <br/>
+                <button onclick="saveGame();">
+                    Save Game
+                </button>
+                <br/>
+                <br/>
+                <button onclick="loadGame();">
+                    Load Game
+                </button>
+            </div>
+        </div>
+    </body>
+    <script>
+        const currentMoney=document.getElementById('money');
+        const currentApplePrice=document.getElementById('currentApplePrice');
+        const priceSpan=document.getElementById('priceSpan');
+        var money=0;
+        var amountPerClick=10;
+        var costToUpgrade=0;
+        
+        function addMoney(amount){
+            money+=amount;
+            currentMoney.innerHTML=money;       
+        }
+
+        function killMoney(killMoneyAmount){
+            money-=killMoneyAmount;
+            currentMoney.innerHTML=money;
+        }
+        
+        function increasingSellingPrice(upgrade){
+            costToUpgrade=10*parseInt(currentApplePrice.innerHTML);
+            if(money>=costToUpgrade){
+                killMoney(costToUpgrade);
+                amountPerClick+=4;
+                currentApplePrice.innerHTML=amountPerClick;
+            }
+            costToUpgrade=10*parseInt(currentApplePrice.innerHTML);
+            priceSpan.innerHTML="($"+costToUpgrade+")";
+        }
+
+        function resetGame(){
+            money=0;
+            currentMoney.innerHTML=money;
+            amountPerClick=10;
+            currentApplePrice.innerHTML=amountPerClick;
+            costToUpgrade=0;
+            priceSpan.innerHTML="($"+costToUpgrade+")";
+        }
+
+        function saveGame(){
+            localStorage.setItem('money',money);
+            localStorage.setItem('applePrice',amountPerClick);
+            localStorage.setItem('costToUpgrade',costToUpgrade);
+        }
+
+        function loadGame(){
+            money=parseInt(localStorage.getItem('money'));
+            currentMoney.innerHTML=money;
+            amountPerClick=parseInt(localStorage.getItem('applePrice'));
+            currentApplePrice.innerHTML=amountPerClick;
+            costToUpgrade=parseInt(localStorage.getItem('costToUpgrade'));
+            priceSpan.innerHTML="($"+costToUpgrade+")";
+
+        }
+        
+        </script>
+</html>

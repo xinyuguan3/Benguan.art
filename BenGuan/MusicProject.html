@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <script type="text/javascript" src="paperjs/dist/paper-full.min.js"></script>
+         <title>Music Project</title>
+         <style>
+         </style>
+         <script type="text/paperscript" canvas="myCanvas">
+            circles=[];
+
+            function CreateCircle(){
+                var maxPoint=new Point(view.size.width,view.size.height);
+                var randomPoint=Point.random();
+                var point=maxPoint * randomPoint;
+                var circle=new Path.Circle(point,700);
+                circle.fillColor=new Color(Math.random(),Math.random(),Math.random());
+                circles.push(circle);
+            }
+
+            window.CreateCircle=CreateCircle;
+
+            function onFrame(myEvent){
+                for(var i=0;i<circles.length;i++){
+                    circles[i].fillColor.hue+=1;
+                    circles[i].scale(.9);
+                }
+            }
+        </script>
+     </head>
+     <body>
+         <p>Enjoy your music!
+         </p>
+             <audio id="audio3"><source src="assets/audio/3.wav" type="audio/wav"></audio>
+             <audio id="audio4"><source src="assets/audio/4.wav" type="audio/wav"></audio>
+             <audio id="audio5"><source src="assets/audio/5.wav" type="audio/wav"></audio>
+             <audio id="pianoC5"><source src="assets/audio/piano/C5.wav" type="audio/wav"></audio>
+             <audio id="pianoDm6"><source src="assets/audio/piano/Dm6.wav" type="audio/wav"></audio>
+             <audio id="pianoE7b9b"><source src="assets/audio/piano/E7b9b.wav" type="audio/wav"></audio>
+             <audio id="pianoFmaj7"><source src="assets/audio/piano/Fmaj7.wav" type="audio/wav"></audio>
+             <canvas id="myCanvas">
+
+             </canvas>
+         <script>
+             const audio3=document.getElementById('audio3');
+             const audio4=document.getElementById('audio4');
+             const audio5=document.getElementById('audio5');
+             const pianoC5=document.getElementById('pianoC5');
+             const pianoDm6=document.getElementById('pianoDm6');
+             const pianoE7b9b=document.getElementById('pianoE7b9b');
+             const pianoFmaj7=document.getElementById('pianoFmaj7');
+
+             document.addEventListener('keypress',function(event){
+                 const keyName=event.key;
+                 switch(keyName){
+                     case('3'):
+                     audio3.currentTime=0;
+                     audio3.play();
+                     CreateCircle();
+                     break;
+
+                     case('4'):
+                     audio4.currentTime=0;
+                     audio4.play();
+                     CreateCircle();
+                     break;
+
+                     case('5'):
+                     audio5.currentTime=0;
+                     audio5.play();
+                     CreateCircle();
+                     break;
+
+                     case('a'):
+                     pianoC5.currentTime=0;
+                     pianoC5.play();
+                     CreateCircle();
+                     break;
+
+                     case('s'):
+                     pianoDm6.currentTime=0;
+                     pianoDm6.play();
+                     CreateCircle();
+                     break;
+
+                     case('d'):
+                     pianoE7b9b.currentTime=0;
+                     pianoE7b9b.play();
+                     CreateCircle();
+                     break;
+
+                     case('f'):
+                     pianoFmaj7.currentTime=0;
+                     pianoFmaj7.play();
+                     CreateCircle();
+                     break;
+
+                     case('g'):
+                     audio5.currentTime=0;
+                     audio5.play();
+                     CreateCircle();
+                     break;
+                 }
+             });
+         </script>
+     </body>
+ </html>

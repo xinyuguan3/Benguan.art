@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clicker
+
+        </title>
+        <style>
+            .ClickImg{
+                width:300px;
+            }
+        </style>
+       
+    </head>
+    <body>
+        
+        <h1 class="title"> Sell some Paitings--Click to sell your painting</h1>
+        <img class="ClickImg" src="../assets/img/chcut.jpg" alt="" width=1000 onclick="addMoney(amountPerClick)">
+        <h4>Current Money:<span id="money">0</span></h4>
+        <div class="upgradeArea">
+            <div class="applePrice">
+                <p>Your pizza sells for $<span id="currentApplePrice">2</span></p>
+                <button onclick="increasingSellingPrice();">Click to make your apples more expensive!<span id="priceSpan">($0)</span></button>
+            </div>
+        </div>
+        <script>
+            const currentMoney=document.getElementById('money');
+            const currentApplePrice=document.getElementById('currentApplePrice');
+            const priceSpan=document.getElementById('priceSpan');
+
+            var money=0;
+            var amountPerClick=2;
+            var costToUpgrade;
+
+            function addMoney(amountToAdd){
+                money+=amountToAdd;
+                currentMoney.innerHTML=money;
+            }
+
+            function deductMoney(amountToDeduct){
+                money-=amountToDeduct;
+                currentMoney.innerHTML=money;
+            }
+
+            function increasingSellingPrice(){
+                costToUpgrade=100*parseInt(currentApplePrice.innerHTML);
+
+                if(money>=costToUpgrade){
+                    deductMoney(costToUpgrade);
+                    amountPerClick+=4;
+                    currentApplePrice.innerHTML=amountPerClick;
+                }
+                costToUpgrade=100*parseInt(currentApplePrice.innerHTML);
+                priceSpan.innerHTML="($"+costToUpgrade+")";
+            }
+            function saveGame(){
+                localStorage.setItem();
+                localStorage.setItem();
+                localStorage.setItem();
+            }
+            function loadGame(){
+                currentMoney.innerHTML=localStorage.getItem('');
+                currentApplePrice.innerHTML=localStorage.getItem();
+                priceSpan.innerHTML=localStorage.getItem();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qi</title>
+        
+    </head>
+    <body>
+        <main class="gameplay">
+            <h2 class="title">Click to Hero</h2>
+            <img src="../assets/img/train.jpg" onclick="addQi(amountPerClick)" width=200>
+            <h4>Current Qi: <span id="QiValue">0</span></h4>
+            <div class="upgradeArea">
+                <div class="strength">
+                    <p>Each training will offer <span id="currentStrength">2</span> Qi!</p>
+                    <button onclick="increasingStr();">Click to add your strength!<span id="QiSpanOnStr">0</span></button>
+                </div>
+            </div>
+        </main>
+        <script>
+            const currentQi=document.getElementById('QiValue');
+            const currentStrength=document.getElementById('currentStrength');
+            const QiSpanOnStr=document.getElementById('QiSpanOnStr');
+
+            var Qi=0;
+            var amountPerClick=2;
+            var costToUpgrade;
+
+            function addQi(amountToAdd){
+                Qi+=amountToAdd;
+                currentQi.innerHTML=Qi;
+            }
+
+            function deductQi(amountToDeduct){
+                Qi-=amountToDeduct;
+                currentQi.innerHTML=Qi;
+            }
+
+            function increasingStr(){
+                costToUpgrade=300*parseInt(currentStrength.innerHTML);
+
+                if(Qi>=costToUpgrade){
+                    deductQi(costToUpgrade);
+                    amountPerClick+=2;
+                    currentStrength.innerHTML=amountPerClick;
+                }
+                costToUpgrade=300*parseInt(currentStrength.innerHTML);
+                QiSpanOnStr.innerHTML="($"+costToUpgrade+")";
+            }
+        </script>
+    </body>
+</html>

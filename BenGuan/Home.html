@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>
+         Ben Guan's secret arsenal
+     </title>
+     <link rel="icon" href="./assets/img/myFace.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="./assets/img/myFace.ico" type="image/x-icon">
+     <script>
+         function clicked(){
+             alert("Liked, thank you very much!")
+         }
+     </script>
+ </head>
+ <body>
+     <header>
+         <img src="./background.jpg"/>
+         <h1>Ben Guan</h1>
+         <ul>
+             <li><a href="">My Games</a></li>
+             <li><a href="https://space.bilibili.com/35921442">My Vlogs</a></li>
+             <li><a href="./Figments.html">Pigments of Minds</a></li>
+             <li><a href="./Ideas.html">Game Ideas</a></li>
+         </ul>
+     </header>
+     <h2>Welcome!<br/></h2>
+     <div id="bio">
+         <p>
+               Nice to meet you, I am Ben, currently a game designer from XinJiang,
+              China. I play a lot, watch a lot and think a lot. Yet I have quantities
+               of ideas in the queue, waiting to be achieved someday. So I think I
+             will let it age for the moment, those ideas sustaining over two years
+             must be outstanding and fun, even commercially success(I hope it would).
+         </p>
+     </div>
+     <p>
+         <div class="grid">
+             <div class="col1">
+                 personality1
+                 <img src="./assets/img/PearlGirl.png" alt="">
+             </div>
+             <div class="col2">personality2</div>
+             <div class="col3">personality3</div>
+             <div class="col4">personality4</div>
+             <div class="col5">personality5</div>
+             <div class="col6">personality6</div>
+         </div>
+         
+     </p>
+     <button class="button blue" onclick="clicked()">Give me a like!</button>
+ </body>
+
+<style>
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.blue{
+    background-color:blue;
+}
+.button{
+    width:75px;
+    height:50px;
+    padding:15px 20px;
+}
+div{
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+header{
+    border-style:solid;
+    font-size:20px;
+}
+header:hover{
+    background-color:blue;
+    font-size: 20px;
+}
+div:active{
+    background-color:red;
+    font-size:10px;
+}
+@media(max-width:500px){
+    h1{
+        font-size:36px;
+    }
+}
+</style>
+</html>
