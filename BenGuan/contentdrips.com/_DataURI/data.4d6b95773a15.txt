@@ -1,0 +1,1 @@
+chrome-extension://hfgbpkkdodfihabamnkhoaeamkdhnoec/app/ui-web/ui-web.html?protocol=https:&domain=contentdrips.com

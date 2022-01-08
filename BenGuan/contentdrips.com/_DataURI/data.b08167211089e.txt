@@ -1,0 +1,1 @@
+chrome-extension://hfgbpkkdodfihabamnkhoaeamkdhnoec/app/ui/ui.min.css?rev=2b3f40c28bbe8996bc0902368ea3a4ce

@@ -1,90 +1,1243 @@
-<!DOCTYPE html>
-<html>
- <head>
-     <title>
-         Ben Guan's secret arsenal
-     </title>
-     <link rel="icon" href="./assets/img/myFace.ico" type="image/x-icon">
-     <link rel="shortcut icon" href="./assets/img/myFace.ico" type="image/x-icon">
-     <script>
-         function clicked(){
-             alert("Liked, thank you very much!")
-         }
-     </script>
- </head>
- <body>
-     <header>
-         <img src="./background.jpg"/>
-         <h1>Ben Guan</h1>
-         <ul>
-             <li><a href="">My Games</a></li>
-             <li><a href="https://space.bilibili.com/35921442">My Vlogs</a></li>
-             <li><a href="./Figments.html">Pigments of Minds</a></li>
-             <li><a href="./Ideas.html">Game Ideas</a></li>
-         </ul>
-     </header>
-     <h2>Welcome!<br/></h2>
-     <div id="bio">
-         <p>
-               Nice to meet you, I am Ben, currently a game designer from XinJiang,
-              China. I play a lot, watch a lot and think a lot. Yet I have quantities
-               of ideas in the queue, waiting to be achieved someday. So I think I
-             will let it age for the moment, those ideas sustaining over two years
-             must be outstanding and fun, even commercially success(I hope it would).
-         </p>
-     </div>
-     <p>
-         <div class="grid">
-             <div class="col1">
-                 personality1
-                 <img src="./assets/img/PearlGirl.png" alt="">
-             </div>
-             <div class="col2">personality2</div>
-             <div class="col3">personality3</div>
-             <div class="col4">personality4</div>
-             <div class="col5">personality5</div>
-             <div class="col6">personality6</div>
-         </div>
-         
-     </p>
-     <button class="button blue" onclick="clicked()">Give me a like!</button>
- </body>
 
-<style>
-.grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 24px;
-    row-gap: 24px;
-}
-.blue{
-    background-color:blue;
-}
-.button{
-    width:75px;
-    height:50px;
-    padding:15px 20px;
-}
-div{
-    margin: 10px 20px;
-    padding: 10px 20px;
-}
-header{
-    border-style:solid;
-    font-size:20px;
-}
-header:hover{
-    background-color:blue;
-    font-size: 20px;
-}
-div:active{
-    background-color:red;
-    font-size:10px;
-}
-@media(max-width:500px){
-    h1{
-        font-size:36px;
+<!doctype html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    
+<title>BenGuan</title>
+<meta name="description" content="BenGuan is a Game Designer &amp; aiming to explore game potential on showing human being's common experience like literature, movies and poems.">
+  <meta name="keywords" content="BenGuan,Game Designer,Guan Xinyu,Indie Game, Artistic Game">
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://contentdrips.com/">
+<meta property="og:title" content="BenGuan">
+<meta property="og:description" content="Contentdrips is a simplest &amp; fastest content tool built for personal brands. It creates bite-sized videos, quote style photos &amp; carousel post for LinkedIn &amp; IG.">
+<meta property="og:image" content="https://contentdrips.com/asset/img/og.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://contentdrips.com/">
+<meta property="twitter:title" content="Contentdrips - Content Creation Tool Build For Your Personal Brands">
+<meta property="twitter:description" content="Contentdrips is a simplest &amp; fastest content tool built for personal brands. It creates bite-sized videos, quote style photos &amp; carousel post for LinkedIn &amp; IG.">
+<meta property="twitter:image" content="https://contentdrips.com/asset/img/og.png">
+
+
+
+
+<meta name="_token" content="1m45l1ekSPuCYR3hpxeKO3OK7Ql5g2Dnn0ZT28ic" />
+
+  <link rel="stylesheet" href="contentdrips.com/contentdrips.com/asset/css/animate.min.css">
+   
+ <link rel="stylesheet" href="contentdrips.com/pro.fontawesome.com/releases/v5.15.0/css/all.css" crossorigin="anonymous"/>
+
+  
+
+  
+ <script src="https://cdn.splitbee.io/sb.js" async></script>
+
+
+
+<link rel="icon" 
+      type="image/png" 
+      href="contentdrips.com/contentdrips.com/asset/img/favicon-16x16.png">
+      
+
+ 
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="contentdrips.com/contentdrips.com/asset/css/toasty.min.css">
+    <link rel="stylesheet" href="contentdrips.com//contentdrips.com/asset/css/teal.min.css">
+     
+    <link rel="stylesheet" href="contentdrips.com/contentdrips.com/asset/css/mysheet.css">
+
+
+    
+</head>
+
+
+    
+        <nav class="navbar navbar-expand-lg navbar-light hdr">
+            <a class="navbar-brand text-capitalize" href="https://contentdrips.com">
+                <h3 class="logog ml-3">BenGuan</h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+               <i class="fas fa-ellipsis-h"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" >
+                               <ul class="navbar-nav ml-auto text-center">
+                      <li class="nav-item my-auto">
+                          <a class="nav-link page-scroll" href="Home.html">Home</a>
+                      </li>
+                   
+                   <li class="nav-item my-auto">
+                        <a class="nav-link page-scroll" href="https://contentdrips.com/benefits">Showcase(Benefits</a>
+                    </li>
+                  
+
+                     <li class="nav-item dropdown my-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="toolsdropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Games(Tools
+              </a>
+              <div class="dropdown-menu  shadow-sm text-center"  aria-labelledby="toolsdropdown">
+                <a class="dropdown-item" href="https://contentdrips.com/videotool">StrangeTale(Video Maker</a>
+                <a class="dropdown-item" href="https://contentdrips.com/quotephotos">BiologyGame(Quote Photos</a>
+                <a class="dropdown-item" href="https://contentdrips.com/carouselmaker">W is Right(Carousel Maker</a>
+                 <a class="dropdown-item" href="https://contentdrips.com/snaps">Social Snaps</a>
+                 <a class="dropdown-item" href="https://contentdrips.com/linkedin-text-styler">LinkedIn Text Post</a>
+              </div>
+            </li>
+
+                    <li class="nav-item my-auto">
+                        <a class="nav-link page-scroll"  href="chfirst.html">Blogs</a>
+                    </li>
+                  
+                    <li class="nav-item  my-auto">
+                    <a class="nav-link page-scroll" data-toggle="modal" data-target="#exampleModalss">
+                Login
+              </a>
+               </li>  
+
+                    <li class="nav-item">
+
+                   
+   <a class="btn btn-primary btn-lg btnround"   href="https://contentdrips.com/signup">Contact</a>
+  </li>                       
+                </ul>  
+  <!-- Modal -->
+
+
+            </div>
+        </nav>
+		
+   
+<input type="hidden" value="John Doe" id="name">
+
+
+<input type="hidden" value="@john" id="userhandle">
+
+
+<input type="hidden" value="contentdrips.com" id="userwebsite">
+
+
+<input type="hidden" value="https://contentdrips.com/media/dp.jpg" id="ppic">
+
+
+
+
+
+
+
+
+<div class="modal" id="exampleModalss" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <a class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times text-white mt-2"></i>
+        </a>
+  <h1 class="text-center text-white display-2 mt-5">Login</h1>
+
+  <div class="modal-dialog text-center modal-sm" role="document">
+    <div class="modal-content bg-home">
+      
+      <div class="modal-body text-left">
+      
+  <div class="card card-body bg-home">
+    <div class="message_danger0"></div>
+    <form >
+  <div class="form-group mb-2">
+    <label for="email">Email address</label>
+    <input type="email" id="login_email" class="form-control form-control-alternative" id="staticEmail2" placeholder="email@example.com">
+  </div>
+  <div class="form-group mb-2 ">
+    <label for="pass">Password</label>
+    <input type="password"  id="login_password" class="form-control form-control-alternative" id="inputPassword2" placeholder="Password">
+  </div>
+  <div class="form-group text-left mt-3 ">
+   <div class="custom-control text-left custom-checkbox mr-sm-2">
+        <input type="checkbox" class="custom-control-input" value='1' id="customControlAutosizing">
+        <label class="custom-control-label" for="customControlAutosizing">Keep me logged in</label>
+      </div>
+  </div>
+ 
+ <hr>
+ 
+  
+  
+ 
+  <div class="form-group mt-4">
+  <button type="submit" id="login_submit" class="btn btn-primary btn-block mb-2"><span>Login</span>
+<div class="loader2 spinner" id="loader2">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                     </div></button>
+  
+
+<hr class="hr-small">
+
+
+  </div>
+
+          
+   <div id="loader2" class="bg-primary p-5">
+      <div class="spinner2">
+  <div class="cube12"></div>
+  <div class="cube22"></div>
+</div>
+</div>
+</form>
+
+
+<div class="text-center mt-0 ">
+
+ <a class="btn btn-none " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Forgot Password?
+  </a>
+  </div>
+  
+<div class="collapse" id="collapseExample">
+  <div>
+   <form>
+          <input type="hidden" name="_token" value="1m45l1ekSPuCYR3hpxeKO3OK7Ql5g2Dnn0ZT28ic">
+    
+    <input type="email"  id="forget_password" name='email' class="form-control  form-control-alternative" id="inputPassword2" placeholder="Enter your email.">
+    <hr class="hr-small">
+    <button type="submit" id="reset" class="btn btn-light btn-block btn-sm mt-2"><span>Send me reset link.</span>
+<div class="loader2 spinner" id="loader2">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                     </div></button>
+    </form>
+    
+    
+  </div>
+</div>
+
+
+
+  </div>
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+  </form>
+
+ 
+  
+  
+
+
+
+
+<section class="bg-home" id="home" >
+ 
+            <div class="container">
+                <div class="row">
+                  
+                    <div class="col-md-7 my-auto text-left">
+                        
+                     <div>
+
+
+
+                      <h1 class="display-3" style="line-height: 1.2;" id="heading-top">Game does not mean anything, just like anything else</h1>
+                        
+                        
+                         
+                       
+                      <h3 class="mb-2 font-weight-bold">Games make us so much get better.</h3>
+                   
+                      <p class="lead">Everyone is born with spirit, just need to train your soul a little bit</p>
+              
+              <div class="text-left">
+                      <p>Game is literally training your soul.</p>
+                       <a class="btn btn-primary btn-lg" href="https://contentdrips.com/signup">
+                     Go to explore
+                      </a>
+      
+                                
+                           </div>  
+                     
+                           
+
+
+                           
+
+
+                     </div>
+             
+
+                    </div>
+					
+                    <div class="col-md-4 my-auto mx-auto text-left">
+
+
+
+
+        <section class="bg-home pb-5 mb-5 ">
+          <div class=" topobjects mb-5 pb-5">
+            <style type="text/css">
+              .topobjects{
+
+                transform: rotate(-2.5deg);
+              }
+              .topcovers{
+               
+                transition: 0.2s;
+              }
+              .topcovers:hover{
+                transform: scale(1.05);
+              }
+     
+
+
+            </style>
+            
+            <div class="text-center mt-4">
+            <p class="text-muted">This is what I have currently with gamem design</p>
+             <img src="https://contentdrips.com/asset/img/curved.png" style="width: 20px;transform: scaleY(-1) rotate(-25deg);">
+           </div>
+
+             <div class="row sall mt-3">
+                  <div class="col-lg-6 text-center col-6 p-0">
+
+                    <div>
+                      <img src="https://contentdrips.com/asset/img/tweetanim.gif" class="block1 shadow-lg mb-2 br-25 w-100">
+                      <small class="text-muted">Animated text videos</small>
+                    </div>
+                  
+
+
+
+
+
+                  </div>
+                  
+                  <div  class="col-lg-6 mg-0 text-center col-6">
+
+                    <div class="">
+                      <img src="https://contentdrips.com/asset/img/quotephotos.jpg" class="block1 shadow-lg mb-2 br-25 w-100">
+                      <small class="text-muted">1-click quote photos</small>
+                    </div>
+                   
+
+
+              
+                       
+                  </div>
+
+                    <div class="col-lg-12 col-12 text-center mt-3 mr-auto ml-auto ">
+
+                      <div class=" block1  shadow-lg br-25 mb-2 " style="overflow: hidden;">
+                        <div class="position-relative text-center">
+                
+                    
+            
+                          <img src="https://contentdrips.com/asset/img/carouseldemo.jpeg" class="" id="pot">
+            
+                         
+                            
+                           
+
+                        </div>
+                      </div>
+                      <small class="text-muted">Games on phylosophy</small>
+
+                      <!-- <img src="https://contentdrips.com/asset/img/instam.png" class="w-100"> -->
+
+                  </div>
+                </div>
+
+
+
+
+
+
+
+          </div>
+          
+
+
+        </section>
+
+
+
+
+                    </div>
+					  
+					
+			
+
+          
+                </div>
+            </div>
+            
+            
+        </section>
+
+<section class="pt-5 bg-home" >
+    <div class="container text-center py-5 shadow-sm btnround bg-white"  id="benefits">
+      <div class="row">
+        <div class="col-sm-4 my-auto">
+  <h2 class="display-2">Benefits</h2>
+        </div>
+         <div class="col-sm-8">
+
+
+               <div class="text-left">
+              <h3><li>Grow your personal brand with consistent content.</li></h3>
+              <h3><li>Gain greater visibility.</li></h3>
+              <h3><li>Land more gigs than ever before.</li></h3>
+              <h3><li>Supports the growth of your actual business.</li></h3>
+        </div>
+
+        
+      <!-- <div class="text-left">
+              <h3><li>You get a social media post for yourself everyday on just 1-click.</li></h3>
+              <h3><li>You turn your tweets content into animated videos.</li></h3>
+              <h3><li>When you post everyday algorithm favors your content.</li></h3>
+              <h3><li>Carousel posts are one of top performing type of posts.</li></h3>
+        </div>  -->
+                 
+
+
+        </div>
+
+      </div>
+              
+             
+             
+               
+              
+          
+          
+          </div>  
+</section>
+
+
+
+<section class=" py-6 bg-home">
+    <div class="container-lg">
+    <div class="col-md-9 mx-auto text-center py-1">
+                <h2 class="display-2">Games</h2>
+             
+              <p class="lead pb-3">Six games currently.</p>
+
+              <div class="row">
+
+                <div class="col-sm-6 col-12 mb-5">
+                  <a href="https://contentdrips.com/quotephotos">
+                   
+                  <div class="card our-prime shadow-sm br-25">
+                    <div class="card-body pl-5 pt-5 pb-5">
+                      
+
+                      <div class="row">
+                        <div class="col-sm-12 mx-auto my-auto text-left">
+                          <h4 class="display-4 text-prime mb-0">Biology Game</h4>
+                          <p class="lead text-prime pb-3">Your body is fucking fun!</p>
+                          <!-- <ul class="text-prime">
+                            <li class="lead">Everyday quote style photos on just 1-click</li>
+                            <li class="lead">Automatically adds your branding on every template.</li>
+                            <li class="lead">Fastest way to get everyday content.</li>
+                          </ul> -->
+                       
+                        </div>
+                        <div class="col-sm-12 py-auto">
+                          <img src="img/Biology Game.jpg" style="border-radius: 20px;" class="w-100 zoomin shadow-lg">
+                        </div>
+                        
+                    </div>
+
+
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col-sm-6 col-12 mb-5">
+                      <a href="https://contentdrips.com/videotool">
+                  <div class="card  our-day shadow-sm br-25">
+                    <div class="card-body pl-5 pt-5 pb-5">
+
+                      <div class="row">
+                        <div class="col-sm-12 mr-auto my-auto text-left">
+                          <h4 class="display-4 text-day mb-0">Strange Tale</h4>
+                          <p class="lead text-day pb-3">Welcome to chinese civilization</p>
+                          <!-- <ul class="text-prime">
+                            <li class="lead">Animated text based videos with just few clicks.</li>
+                            <li class="lead">Automatically adds your branding on every template.</li>
+                            <li class="lead">Great for turning short text into videos.</li>
+                          </ul> -->
+                       
+                        </div>
+                        <div class="col-sm-12 py-auto">
+                          <img src="img/Strange Tale.png" style="border-radius: 10px;" class="w-100 shadow-lg zoomin">
+                        </div>
+                       
+                    </div>
+
+
+                    
+
+                    </div>
+                  </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-12  mb-5  ">
+
+                      <a href="/carouselmaker">
+                  <div class="card  greenish shadow-sm br-25">
+
+                    <div class="card-body pl-5 pt-5 pb-5 ">
+
+                      <div class="row">
+                        <div class="col-sm-12 mr-auto my-auto text-left">
+                          <h4 class="display-4 green-text mb-0">W is Right</h4>
+                          <p class="lead green-text pb-3">Rip-off version of "Baba is you"</p>
+                          <!-- <ul class="green-text">
+                            <li class="lead">Performs really well on LinkedIn & Instagram.</li>
+                           
+                            <li class="lead">Features like smart clone, group color edits & auto branding will save your time.</li>
+                            <li class="lead">Great for repurposing your blogposts, twitter threads or any long form content.</li>
+                          </ul> -->
+                       
+                        </div>
+                        <div class="col-sm-12 py-auto">
+                          <img src="img/W is Right.png" style="border-radius: 10px;" class="w-100 shadow-lg zoomin">
+                        </div>
+                        
+                    </div>
+
+
+
+                    </div>
+                  </div>
+                </a>
+
+
+                </div>
+
+
+
+                <div class="col-sm-6">
+                  <a href="/snaps">
+                  <div class="card yellow-bg br-25 shadow-sm ">
+                    <div class="card-body  pl-5 pt-5 pb-5  ">
+
+                      <div class="row">
+                        <div class="col-sm-12 mr-auto my-auto text-left">
+                          <h4 class="display-4 yellow-text text-left mb-0">Delivery Game</h4>
+                          <p class="lead yellow-text pb-3">Stop gaslighting delivery guys, pls?</p>
+                       
+                        </div>
+                        <div class="col-sm-12 py-auto">
+                          <img src="img/Delivery Game.png" style="border-radius: 10px;" class="w-100 shadow-lg zoomin">
+                        </div>
+                        
+                    </div>
+
+
+
+
+                   
+                    </div>
+
+                  </div>
+                  </a>
+
+                </div>
+                <div class="col-sm-6">
+                  <a href="/linkedin-text-styler">
+                  <div class="card pinkish text-left">
+                    <div class="card-body p-5">
+                      <h4 class="display-4 pink-text"> Social Dilemma</h4>
+                      <p class="lead pink-text pb-3">Make Algorithm great again</p>
+
+                      <img src="img/Social Dilemma.png" style="border-radius: 20px;" class="w-100 zoomin shadow-lg">
+
+                    </div>
+
+                  </div>
+                  </a>
+            </div> 
+ 
+
+                <div class="col-sm-6 col-12 ">
+
+                  <a href="https://contentdrips.com/postdrips" target="_blank">
+              <div class="card  greenish shadow-sm br-25">
+
+                <div class="card-body p-5">
+
+                  <div class="row">
+                    <div class="col-sm-12 mr-auto my-auto text-left">
+                      <h4 class="display-4 green-text">Postdrips</h4>
+                      <p class="lead green-text  pb-3">Simplest LinkedIn Scheduling Tool</p>
+                   
+                    </div>
+                    <div class="col-sm-12 py-auto">
+                      <img src="https://contentdrips.com/asset/img/postdrips_sc.png" style="border-radius: 10px;" class="w-100 shadow-lg zoomin">
+                    </div>
+                    
+                </div>
+
+
+
+                </div>
+              </div>
+            </a>
+
+
+            </div>
+
+
+
+              </div>
+                      
+                  
+            </div>
+          
+          </div>  
+</section>
+
+<section class=" py-5 bg-home">
+  <div class="container">
+
+              
+           
+           
+
+            <h5 class="display-4 text-muted mt-3">
+
+             Our customers shared that our tools are <span class="text-dark">simple</span> & <span class="text-dark">easy to use</span>. 
+             That's what helped them post consistently and grow.
+            </h5>
+                  
+                   
+                 
+         
+        
+        </div>  
+</section>
+
+
+<section class="py-6 bg-home bg-white" id="features">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                 <h2 class="heading-black">Why <span>ContentDrips?</span></h2>
+               
+            </div>
+        </div>
+
+        <div class="row py-6">
+            <div class="col-lg-7 text-left my-5 my-auto">
+                <h1 class="display-3">We save your time.</h1>
+              
+                <h6 class="display-4 text-muted mt-3 ltitle">
+
+                
+As the best LinkedIn content creation tool, our goal is not only to assist you to create high-performing branding content. Our goal is to save your time. So, you can focus on conversions.
+
+
+                 </h6>
+
+
+                
+            </div>
+            <div class="col-lg-5">
+               <img src="https://contentdrips.com/asset/img/rememberyou.png" class="shadow-lg w-100">
+            </div>
+            
+        </div>
+
+                <div class="row py-6">
+                   <div class="col-lg-7 text-left my-5 my-auto">
+                <h1 class="display-3">You get consistent</h1>
+             
+                <h6 class="display-4 text-muted mt-3 ltitle">
+
+                Right when you create an account, we set up your brand assets for automatic updation on each piece of content that you create. In this way, everything that you create carries your brand’s name, social handles, and even preferred colors. 
+
+                  </h6>
+
+                  
+            </div>
+
+                   <div class="col-lg-5">
+              
+                <video loop muted autoplay   class="   shadow-lg d-block  w-100"> 
+                      <source  src="https://contentdrips.com/asset/img/fastt.mp4" type="video/mp4">
+                     
+                      Your browser does not support the video tag.
+                    </video>
+
+
+
+            </div>
+           
+           
+            
+        </div>
+
+
+        <div class="row py-6">
+            <div class="col-lg-7 text-left my-5 my-auto">
+                <h1 class="display-3">High-performing templates.</h1>
+             
+                <h6 class="display-4 text-muted mt-3 ltitle">
+
+                 Spice up your social media every week with quote photos, animated text videos &
+                 weekly carousel post. That's the plan.
+                  </h6>
+
+            </div>
+            <div class="col-lg-5">
+               <img src="https://contentdrips.com/asset/img/dailycontent.png" class="w-100 shadow-lg">
+            </div>
+            
+        </div>
+
+
+        <div class="row py-6">
+          <div class="col-lg-7 text-left my-5 my-auto">
+              <h1 class="display-3">We help build brand identity.</h1>
+           
+              <h6 class="display-4 text-muted mt-3 ltitle">
+
+              We help you stand out from the crowd & build a loyal customer base by incorporating your distinctive brand assets. Just upload your custom fonts & color palettes and let our content creation tools take care of the rest.
+                </h6>
+
+          </div>
+          <div class="col-lg-5">
+             <img src="https://contentdrips.com/asset/img/brandassets.png" class="w-75 shadow-lg">
+          </div>
+          
+      </div>
+
+
+
+
+<div class="row py-6">
+                 
+            <div class="col-lg-9 mx-auto text-center my-5 my-auto">
+                <h1 class="display-3">High performing templates.</h1>
+             
+                <h6 class="display-4 text-muted mt-3 ltitle">
+
+                Our library of graphics contains nothing less than the best. We carefully curate and create trending designs to help you gain better visibility. You pay attention to your custom touches, we’ll take care of getting you a million views!
+ 
+                   </h6>
+                   <p class="text-muted">For e.g. <i>"holding placard"</i> style templates performed well.</p>
+
+
+            </div>
+
+         
+           
+           
+
+            
+        </div>
+
+
+
+</div>
+</section>
+
+
+
+
+
+
+
+  <style type="text/css">
+              .tweet{
+                background: #ffffff;
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                  padding-left: 30px;
+                  padding-right: 30px;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                border-top-right-radius: 30px;
+                 border-top-left-radius: 30px;
+                  border-bottom-left-radius: 0px;
+                      border-bottom-right-radius: 30px;
+
+              }
+            </style>
+
+<section class=" py-5 bg-home">
+    <div class="container">
+  
+                <h2 class="display-3">Who's it for?</h2>
+             
+             
+
+              <h5 class="display-4 text-muted mt-3">
+
+
+       
+
+             Our tools are for <span class="text-dark">founders</span>, <span class="text-dark">influencers</span>
+                & <span class="text-dark">coaches</span> and <span class="text-dark">marketing teams</span>.
+              </h5>
+                    
+                     
+                   
+           
+          
+          </div>  
+</section>
+
+
+
+
+
+
+
+
+<section class="py-7 pb-5 bg-light" >
+  <div class="container">
+   <h2 class="text-dark display-3 text-center mb-5">Loved by people around the world</h2>
+
+
+
+              
+    <div class="row  mb-5 mt-3">
+    <div class="col-md-4 mx-auto text-left " >
+               
+
+
+  <div class="tweet  shadow-sm">
+              <p class="mb-0">Using it for my content has been awesome so far. Its super easy & fast UX encourages me to put atleast one piece of content every day.</p>
+              <br>
+               <span><strong>Haseeb Tariq</strong></span>
+<A href="https://www.twitter.com/haseebspeaks/" target="_blank"><span class="text-muted" >@haseebspeaks</span></A>
+
+
+            </div>
+             <img src="https://contentdrips.com/asset/haseeb.jpg" alt="Haseeb Tariq" style="width: 40px;  border: 3px solid #ffebeb;" class="rounded-circle" >
+           
+
+
+
+
+
+          
+
+            </div>
+
+
+ <div class="col-md-4 mx-auto text-left " >
+               
+
+             
+
+       <div class="tweet  shadow-sm">
+              <p class="mb-0">I just tried Contentdrips and made a video content. The process is smooth & convenient without friction. The templates collection is a great starting point</p>
+              <br>
+               <span><strong>Zoe Chew</strong></span>
+<A href="https://www.twitter.com/whizzzoe/" target="_blank"><span class="text-muted" >@whizzzoe</span></A>
+
+
+            </div>
+             <img src="https://contentdrips.com/asset/zoechew.jpg" alt="Zoe Chew" style="width: 40px;  border: 3px solid #ffebeb;" class="rounded-circle" >
+           
+
+
+
+
+          
+
+            </div>
+             <div class="col-md-4 mx-auto text-left " >
+               
+
+                  <div class="tweet  shadow-sm">
+              <p class="mb-0">Contentdrips made my personal branding alot easier in terms of content preparation. Love the experience</p>
+              <br>
+               <span><strong>Sarah Seif</strong></span>
+<A href="https://www.twitter.com/sarahseiff/" target="_blank"><span class="text-muted" >@sarahseiff</span></A>
+
+
+            </div>
+             <img src="https://contentdrips.com/asset/img/sarah.jpg" alt="Sarah Seif " style="width: 40px; border: 3px solid #ffebeb;" class="rounded-circle" >
+           
+
+
+           
+
+
+          
+
+            </div>
+           <div class="col-md-6 col-12 mx-auto text-left">
+
+            
+            <div class="tweet  shadow-sm">
+              <p class="mb-0">I really like the carousel builder. It has some features that I don't have within Canva, which is what I have been using for some of mine. Really like that you can move the images in between the grids.</p>
+               <br>
+               <span><strong>Nicholas Scalice</strong></span>
+              <A href="https://www.twitter.com/nscalice/" target="_blank"><span class="text-muted" >@nscalice</span></A>
+            </div>
+    
+          <img src="https://contentdrips.com/asset/img/nic.jpg" style="width: 40px;height: 40px;border-radius: 50px; border: 3px solid #ffebeb;">
+
+
+
+            
+          <div class="tweet  shadow-sm">
+            <p class="mb-0">Contentdrips is so easy to use and so powerful. It’ll save you and your team tons of time in editing. Great work guys!</p>
+             <br>
+             <span><strong>Hernan Vazquez</strong></span>
+            <A href="https://www.twitter.com/HernanV07/" target="_blank"><span class="text-muted" >@HernanV07</span></A>
+          </div>
+  
+        <img src="https://contentdrips.com/asset/img/hernan.jpg" style="width: 40px;height: 40px;border-radius: 50px; border: 3px solid #ffebeb;">
+
+
+        
+<div class="py-5">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6757374874248871936" height="554" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
+
+            </div>
+
+              <div class="col-md-6 col-12 mx-auto text-left">
+
+          
+
+            <div class="py-5">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6806231983497261056" height="1027" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            </div>
+
+            </div>
+
+
+           
+     
+
+    </div>
+    <div class="text-center">
+
+</div>
+</section>
+
+
+<section class="py-3  pattern">
+  
+  <div class="container">
+  
+    <div class="row mt-3 py-5">
+            <div class="col-md-12 mx-auto">
+                <div class="card p-4 btnround text-center shadow sm wow animated fadeInUp faster bg-white">
+                    <div class="card-body">
+                        <div class="mb-5 mb-md-0 py-5">
+                            <h1 class="display-2 mb-1 text-dark">Grow your personal brand</h1>
+                            <h3 class="text-dark mb-4">Posting a piece of content everyday helps you grow faster. We help you do that.</h3>
+                      
+                        <p class="text-muted">
+                        
+                        
+                          
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+</section>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobile-bottom-bar fixed-bottom mon">
+  <a href="/signup" class="footer-link">
+  <i class="fas fa-plus ic"></i> <span class='footer-text'>Signup</span>
+  </a>
+  <a class="footer-link" href="#" data-toggle="modal" data-target="#exampleModalss">
+    <i class="fas fa-sign-in-alt ic"></i> <span class='footer-text' >Log in</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+ 
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
     }
-}
-</style>
+  },
+  "theme": "edgeless",
+  "content": {
+    "href": "https://contentdrips.com/privacy"
+  }
+})});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The Modal -->
+<div class="modal fade" id="emailexist">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4>Email already exist</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>There is already an account with this email. You just need to login.</p>
+      </div>
+
+      <!-- Modal footer -->
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--footer-->
+
+
+  
+<footer class="py-6 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 mr-auto">
+                <h5>About BenGuan</h5>
+                <p class="text-muted">Contentdrips is a simplest content creation built for personal brands. It does quote photos with 1-click, bite-sized videos & seamless carousel posts. </p>
+                <ul class="list-inline social social-rounded social-sm">
+                    <li class="list-inline-item">
+                        <a  href="https://www.facebook.com/contentdrips/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.twitter.com/contentdrips/?modal=admin_todo_tour" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    
+                      <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UCrWLxfCiusnyV3RS7Tlun8A" target="_blank">   <i class="fab fa-youtube"></i></a>
+                    </li>
+
+                   
+
+                 
+                   
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Games</h5>
+                <ul class="list-unstyled">
+                 
+                  <li><a href="/videotool" data-toggle="tooltip" data-placement="top" title="Text content into small videos">Animated Text Videos</a></li>
+                    <li><a href="https://contentdrips.com/quotephotos"  data-toggle="tooltip" data-placement="top" title="Auto create quote photos">QuotePik</a></li>
+                     <li><a href="/snaps" data-toggle="tooltip" data-placement="top" title="Resize and make your screenshots look good.">Social Snaps</a></li>
+                      <li><a href="https://contentdrips.com/carouselmaker" data-toggle="tooltip" data-placement="top" title="Create seamless carousels for Instagram">Carousel Maker</a></li>
+                      <li><a href="https://contentdrips.com/text-to-carousel" >Text To Carousel</a></li>
+                   
+                       <li><a href="https://contentdrips.com/TweetToVideo" >Tweet To Video</a></li>
+                            <li><a href="https://contentdrips.com/linkedin-text-styler" >LinkedIn Text Styler</a></li>
+
+                            <li><a href="https://contentdrips.com/postdrips" >Postdrips</a><span class="position-absolute badge badge-pill badge-danger">Recommend</span></li>
+                   
+                   
+                   
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5><a href="https://contentdrips.com/blog/">Blog</a></h5>
+                <ul class="list-unstyled">
+                      <li><i><a href="https://contentdrips.com/blog/turn-your-tweets-into-quotes-for-instagram-videos-photos/">How to turn your tweets into videos?</a></i></li>
+                    <li><i><a href="https://contentdrips.com/blog/turn-your-twitter-threads-into-carousel-posts-for-ig-linkedin/">Turn twitter threads/blogs into carousel post for LinkedIn & IG</a></i></li>
+                     <li><i><a href="https://im-usamakhalid.medium.com/free-carousel-template-for-instagram-linkedin-facebook-ads-9a46a3e71348">Creating seamless carousels in your browser</a></i></li>
+                  
+                </ul>
+            </div>
+            
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+             
+              <br>
+                &copy; BenGuan
+             
+              
+            </div>
+        </div>
+
+    </div>
+   
+</footer>
+
+<!--scroll to top-->
+
+
+
+
+
+<script src="https://contentdrips.com/js/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+  
+          var PROFILECAR = "https://contentdrips.com/carousel";
+          const WEBURL = "https://contentdrips.com";
+          const LOGINROUTE = "https://contentdrips.com/login";
+          const HOMEURL= "https://contentdrips.com";
+          const FORGETURL = "https://contentdrips.com/forgetpassword";
+
+
+        
+
+
+</script> 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://contentdrips.com/asset/js/toasty.min.js"></script>
+
+
+<script src="https://contentdrips.com/asset/js/scripts.min.js?v=1.3"></script>
+<!-- <script src="https://contentdrips.com/asset/js/myscript.js"></script> -->
+
+<script src="https://contentdrips.com/asset/js/wow.min.js"></script>
+  <script>
+
+
+
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('67mz62ce9979');
+
+              new WOW().init();
+              </script>
+
+
+
+
+
+
+
+
+ 
+
 </html>
+
+
+<script type="text/javascript">
+  
+
+
+
+ $(document).ready(function() {
+
+  if(window.location.href.indexOf('#emailexist') != -1) {
+    $('#emailexist').modal('show');
+  }
+
+});
+
+
+</script> 
+
