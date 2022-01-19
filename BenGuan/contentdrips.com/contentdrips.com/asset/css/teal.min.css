@@ -2510,14 +2510,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #212529;
-    background-color: #1de9a7;
-    border-color: #1de9a7
+    background-color: #e9d51d;
+    border-color: #e9971d
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #14cc9e;
-    border-color: #13c095
+    background-color: #ccb014;
+    border-color: #f09a1a
 }
 
 .btn-primary.focus,
@@ -11115,7 +11115,7 @@ open:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: -webkit-gradient(linear, left top, right top, from(#63d4ff), to(#79ffb0));
+    background-image: -webkit-gradient(linear, left top, right top, from(#effc39), to(#f3b224));
     font-weight: 700;
     font-size: 1.9rem
 }
