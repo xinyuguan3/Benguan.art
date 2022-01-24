@@ -88,7 +88,7 @@ body {
     line-height: 1.5;
     color: #343a40;
     text-align: left;
-    background: #543a2d;
+    background: #1a1714;
 }
 
 [tabindex="-1"]:focus {
@@ -11239,11 +11239,11 @@ open:hover {
 }
 
 .our-prime {
-    background: #8bfdbb !important
+    background: #591463 !important
 }
 
 .text-prime {
-    color: #005a26
+    color: #e692ff
 }
 
 .br-25 {
@@ -11251,35 +11251,35 @@ open:hover {
 }
 
 .our-day {
-    background: #8bf9fd !important
+    background: #132861 !important
 }
 
 .text-day {
-    color: #004f52
+    color: #61c4e2
 }
 
 .yellow-bg {
-    background: #fff8b8 !important
+    background: #915905 !important
 }
 
 .yellow-text {
-    color: #6d6202
+    color: #d4c110
 }
 
 .pinkish {
-    background: #fdb8d1
+    background: #7a1f1f
 }
 
 .pink-text {
-    color: #5d3543
+    color: #fd689c
 }
 
 .greenish {
-    background: #d6f6e7
+    background: #188d28
 }
 
 .green-text {
-    color: #30715a
+    color: #82ecc7
 }
 
 .zoomin {
