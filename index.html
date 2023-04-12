@@ -5,72 +5,238 @@
     <title>Ben Guan - Game Designer,
        Product Manager, Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio site for Josh Wardle." />
+    <meta name="description" content="Portfolio site for Ben Guan." />
     <link href="style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> -->
+    <script src="/main.js"></script>
+    <script src="/hired_work/main.js"></script>
+    <script>window.addEventListener("load",init)</script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="hired_work/style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" rel="stylesheet">
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133677471-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133677471-1');
+    </script>
+    
 </head>
-
 <body>
-    <div id="content">
-        <img class="logo" src="logo.svg" alt="logo" />
+  <div id="nav">
+    <table style="width:100%; font-size: 20px; height:40px">
+      <tr>
+        <td>
+          <b><div id="title">Xinyu Guan</div></b>
+        </td>
 
-        <h1>Hi, I'm Ben.</h1>
-        <h2>I enjoy building unique digital entertaining products that focus on human interaction and immersion.</h2>
+        <div id="ghub" style="opacity:70%;position:absolute;right:55px;top:4.5px;cursor:pointer;z-index:1000">
+          <svg fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewbox="0, 0, 32, 32">
+              <path d="M15.999,-0 C7.163,-0 0,7.345 0,16.405 C0,23.653 4.584,29.802 10.942,31.972 C11.743,32.122 12.034,31.615 12.034,31.18 C12.034,30.792 12.021,29.759 12.013,28.391 C7.562,29.382 6.623,26.191 6.623,26.191 C5.895,24.296 4.846,23.791 4.846,23.791 C3.394,22.774 4.956,22.794 4.956,22.794 C6.562,22.91 7.407,24.485 7.407,24.485 C8.834,26.992 11.152,26.268 12.064,25.848 C12.209,24.788 12.622,24.065 13.079,23.655 C9.527,23.242 5.791,21.834 5.791,15.547 C5.791,13.757 6.415,12.292 7.438,11.145 C7.273,10.73 6.724,9.063 7.595,6.804 C7.595,6.804 8.938,6.363 11.995,8.486 C13.271,8.121 14.64,7.94 16,7.934 C17.359,7.94 18.728,8.121 20.006,8.486 C23.061,6.363 24.401,6.804 24.401,6.804 C25.275,9.063 24.726,10.73 24.561,11.145 C25.586,12.292 26.206,13.757 26.206,15.547 C26.206,21.85 22.465,23.236 18.9,23.642 C19.475,24.149 19.986,25.15 19.986,26.681 C19.986,28.873 19.967,30.643 19.967,31.18 C19.967,31.619 20.255,32.13 21.067,31.97 C27.42,29.796 32,23.651 32,16.405 C32,7.345 24.836,-0 15.999,-0"/>
+          </svg>
+        </div>
+        <script>
+          var ghub = document.getElementById("ghub");
+          ghub.onmouseenter=function(){ghub.style.opacity=1.0}
+          ghub.onmouseleave=function(){ghub.style.opacity=0.7}
+          ghub.onclick=function(){document.location.href="https://github.com/xinyuguan3"}
+        </script>
+        
+        <div id="cv" style="opacity:70%;position:absolute;right:100px;top:4.5px;cursor:pointer;z-index:1000">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewbox="0, 0, 32, 32">
+            <path d="M19,1 L28,10 L28,28 C28,29.65 26.65,31 25,31 L6.985,31 C5.335,31 4,29.65 4,28 L4,4 C4,2.35 5.35,1 7,1 L19,1 z M13.526,15.411 L8.889,15.411 C8.039,15.411 7.343,16.107 7.343,16.957 L7.343,23.139 C7.343,23.989 8.039,24.685 8.889,24.685 L13.526,24.685 C14.376,24.685 15.071,23.989 15.071,23.139 L15.071,21.594 L12.753,21.594 L12.753,22.366 L9.662,22.366 L9.662,17.729 L12.753,17.729 L12.753,18.502 L15.071,18.502 L15.071,16.957 C15.071,16.107 14.376,15.411 13.526,15.411 z M19.247,15.411 L16.928,15.411 L19.633,24.685 L21.952,24.685 L24.657,15.411 L22.338,15.411 L20.793,20.712 L19.247,15.411 z M17.5,3.25 L17.5,11.5 L25.75,11.5 L17.5,3.25 z" fill="white"/>
+          </svg>
+        </div>
+        <script>
+          var bcv = document.getElementById("cv");
+          bcv.onmouseenter=function(){bcv.style.opacity=1.0}
+          bcv.onmouseleave=function(){bcv.style.opacity=0.7}
+          bcv.onclick=function(){document.location.href="https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fcv_lingdong.pdf?v=1606727351954"}
+        </script>
+         
+      </tr>
+    </table>
+  </div>
 
-        <h3>Things about me</h3>
-        <ul>
-            <li>I am an artist, product manager and game designer.</li>
-            <li>I live in <span class="strike">Urumqi</span> Hong Kong.</li>
-            <li>
-                On the internet, I often learn by reading code
-                <span class="username"><a href="https://soundcloud.com/powerlanguage/bogasm"
-              >guanxinyu</a
-            ></span
-          >.
-        </li>
-        <!-- <li>
-          I was named one of
-          <a
-            href="https://time.com/collection/100-most-influential-people-2022/6177816/josh-wardle/"
-            >Time's most influential people of 2022</a
-          >
-        </li> -->
+  <div id="content2">
+    <div style="padding: 60px 0px 0px 0px;"></div>
+    <img class="logo" src="img/BenLogo.svg" alt="logo" />
+
+    <h1>Hi, I'm Ben.</h1>
+    <h2>I enjoy building unique digital entertaining products that focus on human interaction and immersion.</h2>
+
+    <h3>Things about me</h3>
+    <ul>
+        <li>I am an artist, product manager and game designer.</li>
+        <li>I live in <span class="strike">Urumqi</span> Hong Kong.</li>
         <li>
-          You may be interested in three projects I created in University:
-          <a
-            href="https://www.nbcnews.com/tech/internet/reddit-button-n357841"
-            class="art-title"
-            >Social Dilemma (2020)</a
-          >,
-          <a
-            href="https://www.nbcnews.com/tech/internet/reddit-button-n357841"
-            class="art-title"
-            >East Village (2021)</a
-          >
-          and
-          <a
-            href="http://www.newsweek.com/reddit-place-internet-experiment-579049"
-            class="art-title"
-            >The Society (2023)</a
-          >.
-        </li>
-        <li>
-          When making games,
-          I tend to focus on sociology simulation and immersion design.
-        </li>
-      </ul>
+            I often learn by reading code
+            <span class="username"><a href="https://soundcloud.com/powerlanguage/bogasm"
+          >guanxinyu</a
+        ></span
+      >.
+    </li>
+    
+    <li>
+      You may be interested in three projects I created in University:
+      <a
+        href="https://www.nbcnews.com/tech/internet/reddit-button-n357841"
+        class="art-title"
+        >Social Dilemma (2020)</a
+      >,
+      <a
+        href="https://www.nbcnews.com/tech/internet/reddit-button-n357841"
+        class="art-title"
+        >East Village (2021)</a
+      >
+      and
+      <a
+        href="http://www.newsweek.com/reddit-place-internet-experiment-579049"
+        class="art-title"
+        >The Society (2023)</a
+      >.
+    </li>
+    <li>
+      When making games,
+      I tend to focus on sociology simulation and immersion design.
+    </li>
+  </ul>
+  </div>
+  <div style="padding: 60px 0px 0px 0px;"></div>
+  <table align="center" style="width:80%;"><tr>
+    
+    <td style="font-size:14px;height:60px">
+      <div>
+        <span id="tab0" class="tabopt tabopt-on noselect" style="border-radius:20px 0px 0px 20px;">Personal&nbsp;Projects</span><span id="tab1" class="tabopt noselect" style="border-left:none;border-radius:0px 20px 20px 0px;">Works&nbsp;for&nbsp;Hire</span>
+      </div>
+      
+    </td>
+    
+    <td id="search-icon-td" style="width:40px;text-align:right">
+      <i class="material-icons" style="color:grey;width:70px;transform:translate(0px,4px);font-size:24px">search</i>
+    </td>
+    <td id="search-td" style="width:100%">
+      <div>
+        <input id="search-box"
+               class="search-inp" 
+               placeholder="Search Projects..."
+               >
+        </div>
+    </td>
+  </tr></table>
+  <div style="padding: 10px 0px 0px 0px;"></div>
 
-      <!-- <h3>A talk I gave about creative projects</h3>
+  <table id="viz-n-sort" style="margin: 0px 10% 0px 10%; white-space: nowrap;"><tr>
+
+    <td id="viz" style="width:100%; ">
+    </td>
+    <td style="vertical-align:top;">
+    <span style="font-size:13px">Sort by </span>
+    <select class="dropdown" onchange="togglesort(this)">
+      <option value="Newest">Newest</option>
+      <option value="Oldest">Oldest</option>
+      <option value="Alphabetical">Alphabetical</option>
+      <option value="Shuffle">Shuffle</option>
+    </select>
+    </td>
+  </tr></table>
+
+  <div id="contenttoppad" style="padding: 30px 0px 0px 0px;"></div>
+  <div id="content">
+
+  </div>
+  <div id="hint"></div>
+  
+  <div style="padding: 20px 0px 0px 0px;"></div>
+    <div id="content2">
+        
+
+        <h2>Interesting Projects Media Present</h2>
+        
+
+      <h3>A Web3 game demo I made to cure youngsters with mental illness</h3>
       <div class="video">
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/OXzfvYoFQFo?controls=0"
+          src="https://www.youtube.com/embed/xWnN3o1bstU?controls=0"
+          
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </div> -->
+      </div>
+
+      <h3>A box-pushing puzzle game inspired by "Baba is you"</h3>
+      <ul>
+        
+        <iframe frameborder="0" src="https://itch.io/embed/1033954?linkback=true&amp;border_width=5&amp;link_color=00529a&amp;border_color=000" width="560" height="175"><a href="https://gxyguan55.itch.io/w-is-right">W is Right by Benjamin Guan</a></iframe>
+        
+        <li>
+      <div class="project-summary">
+        player need to change the keybind so the movement direction will fit the keybind. When player makes "W=Right"(which means pressing W key will make player move right), game succeeds.
+      </div>
+        </li>
+    </ul>
+      <h3>A Game about Delivery("外卖" in chinese) man getting manipulated by algorithm</h3>
+      <ul>
+        
+        <iframe frameborder="0" src="https://itch.io/embed/950405?linkback=true&amp;border_width=5&amp;fg_color=000000&amp;link_color=00529a&amp;border_color=000000" width="560" height="175"><a href="https://gxyguan55.itch.io/dilemma-of-the-courier">Dilemma of the Courier by Benjamin Guan</a></iframe>
+        
+        <li>
+      <div class="project-summary">
+        player need to pick up the parcel and send the parcel to the destination(according to the phone's instruction), but the algorithm will fool player from time to time, player need to figure out the right way and try to avoid the algorithm's manipulation.
+      </div>
+        </li>
+    </ul>
+      
+      <!-- I need a list of projects showing my projects one by one. Each row should only have 3 projects, showing their cover image, title , one-sentence summary and a <href> linking to project page, list 9 projects now, it should be a minimalism style, each project should be contained in a container -->
+      <!-- <div class="project">
+        <div class="project-container">
+          <div class="project-image">
+            <img src="img/1.jpg" alt="project-image" />
+          </div>
+          <div class="project-title">
+            <a href="https://www.nbcnews.com/tech/internet/reddit-button-n357841">Social Dilemma</a>
+          </div>
+          <div class="project-summary">
+            A game about the impact of social media on society.
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-image">
+            <img src="img/2.jpg" alt="project-image" />
+          </div>
+          <div class="project-title">
+            <a href="https://www.nbcnews.com/tech/internet/reddit-button-n357841">East Village</a>
+          </div>
+          <div class="project-summary">
+            A game about the impact of social media on society.
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-image">
+            <img src="img/3.jpg" alt="project-image" />
+          </div>
+          <div class="project-title">
+            <a href="https://www.nbcnews.com/tech/internet/reddit-button-n357841">The Society</a>
+          </div>
+          <div class="project-summary">
+            A game about the impact of social media on society.
+          </div>
+        </div>
+        </div> -->
+
 
       <h3>More things about me</h3>
       <ul>
@@ -80,10 +246,21 @@
         <li><a href="https://github.com/xinyuguan3">Github</a></li>
         <!-- <li><a href="https://twitter.com/BenGuan55">Twitter</a></li> -->
         <li><a href="www.linkedin.com/in/xinyu-guan-049220239">LinkedIn</a></li>
-        <!-- <li><a href="https://www.reddit.com/user/powerlanguage">Reddit</a></li> -->
-        <li><a href="./home.html">Old Version Website</a></li>
-        <li><a href="./chhome.html">中文版主页</a></li>
+        <!-- <li><a href="https://www.reddit.com/user/BenGuan">Reddit</a></li> -->
+        <li><a href="home.html">Old Version Website</a></li>
+        <li><a href="chhome.html">中文版主页</a></li>
+        <img class="logo" src="img/MolinLogo2.svg" alt="logo" />
+        <li>Lover&uarr;</li>
+        <!-- <li>Lover&#21c8;</li> -->
+        
       </ul>
+      
+      
     </div>
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+    <div style="padding: 30px 0px 0px 0px;"></div>
+    <div style="font-size:10px">
+      <i class="material-icons" style="color:grey;font-size:12px;transform:translate(0px,3px)">email</i> <i>gxyguan55@gmail.com</i>
+    </div>
+    <div style="padding: 40px 0px 0px 0px;"></div>
+  </body>
 </html>

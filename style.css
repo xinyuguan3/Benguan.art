@@ -7,8 +7,8 @@ body {
     color: #222;
 }
 
-#content {
-    margin: 1rem;
+#content2 {
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
 }
 
 img.logo {
-    width: 4rem;
+    width: 8rem;
 }
 
 .strike {
@@ -51,7 +51,7 @@ img.logo {
 
 a,
 a:visited {
-    color: #009a64;
+    color: #00529a;
 }
 
 @media only screen and (max-device-width: 480px) {
