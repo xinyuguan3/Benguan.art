@@ -294,7 +294,7 @@
     }
   },
   {
-    "title": "Ci-ren",
+    "title": "Tetris Go(围块)",
     "images": [
       {
         "url": "media/ciren.png",
@@ -302,7 +302,7 @@
         "position": "50% 45%"
       }
     ],
-    "description": "Generative Chinese poetry.",
+    "description": "Combining Tetris and GO, game tempo increases titanically.",
     "links": {
       "Github": "https://github.com/LingDong-/ci-ren",
       "Play Online": "https://lingdong-.github.io/ci-ren/"
@@ -312,11 +312,11 @@
       "Javascript"
     ],
     "date": {
-      "month": 8,
-      "year": 2016
+      "month": 1,
+      "year": 2022
     }
   },{
-    "title": "imgmarkov",
+    "title": "Neon Cthulhu",
     "images": [
       {
         "url": "https://github.com/memegen/imgmarkov/raw/master/screenshots/1.png?raw=true",
@@ -324,7 +324,7 @@
         "position": "80% 0%"
       }
     ],
-    "description": "Dreams up images using multi-dimensional markov chains.",
+    "description": "Manipulate two screens adn the same time,right screen is internal world of protagonist and left screen is external world.While going to dangerous place player needs to fight physically, while sans too low player needs to fight the monster from internal world",
     "links": {
       "Github": "https://github.com/memegen/imgmarkov"
     },
@@ -332,11 +332,11 @@
       "Python"
     ],
     "date": {
-      "month": 12,
-      "year": 2016
+      "month": 6,
+      "year": 2022
     }
   },{
-    "title": "linedraw",
+    "title": "car XR Demo",
     "images": [
       {
         "url": "https://github.com/LingDong-/linedraw/raw/master/screenshots/1.png?raw=true",
@@ -344,7 +344,7 @@
         "position": "70% 10%"
       }
     ],
-    "description": "Convert images to vectorized line drawings for plotters.",
+    "description": "A hololens AR unity project I collaborate to make for Bosch.",
     "links": {
       "Github": "https://github.com/LingDong-/linedraw"
     },
@@ -357,7 +357,7 @@
       "year": 2016
     }
   },{
-    "title": "Better Horses",
+    "title": "Whose Wife anyway?",
     "images": [
       {
         "url": "media/betterhorses.png",
@@ -378,7 +378,7 @@
       "year": 2017
     }
   },{
-    "title": "Normal Human Face Simulator",
+    "title": "秦国喜剧",
     "images": [
       {
         "url": "media/nhfs.png",
@@ -399,7 +399,7 @@
       "year": 2017
     }
   },{
-    "title": "{Shan, Shui}*",
+    "title": "AR Boxing",
     "images": [
       {
         "url": "media/shanshui.jpg",
@@ -407,7 +407,7 @@
         "position": "40% 60%"
       }
     ],
-    "description": "Infinite procedurally generated Chinese landscape painting.",
+    "description": "a 2-player local boxing game using kinect, you need to actually boxing to make virtual avatar fight.",
     "links": {
       "Github": "https://github.com/LingDong-/shan-shui-inf",
       "Play Online": "https://lingdong-.github.io/shan-shui-inf"
@@ -420,7 +420,7 @@
       "year": 2018
     }
   },{
-    "title": "nonflowers",
+    "title": "covid in kinect",
     "images": [
       {
         "url": "https://github.com/LingDong-/nonflowers/raw/master/screenshots/screen01.jpg",
@@ -428,7 +428,7 @@
         "position": "10% 10%"
       }
     ],
-    "description": "Procedurally generated paintings of nonexistent flowers.",
+    "description": "Player needs to take away the covid virus from hong kong district, on the background there is news talking about increasing covid numbers.",
     "links": {
       "Github": "https://github.com/LingDong-/nonflowers",
       "Play Online": "https://lingdong-.github.io/nonflowers/",
@@ -442,7 +442,7 @@
       "year": 2018
     }
   },{
-    "title": "Prophesy of Mind",
+    "title": "Within one Arm",
     "images": [
       {
         "url": "media/pom.jpg",
@@ -462,7 +462,7 @@
       "year": 2016
     }
   },{
-    "title": "Human Powered Computers",
+    "title": "a small game",
     "images": [
       {
         "url": "media/tile.png",
@@ -482,7 +482,7 @@
       "year": 2017
     }
   },{
-    "title": "Pix2Pix Cities",
+    "title": "Fix you",
     "images": [
       {
         "url": "media/pix2pixcity.jpg",
@@ -503,7 +503,7 @@
       "year": 2018
     }
   },{
-    "title": "edges2calligraphy",
+    "title": "VR fishing",
     "images": [
       {
         "url": "media/e2c.png",
