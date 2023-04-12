@@ -8,19 +8,19 @@
         "position": "50% 35%"
       }
     ],
-    "description": "Who made all the other stuff on this site...",
+    "description": "Simulation of anatomical micro world, that society is just like another country, except smaller",
     "links": {
-      "Github": "https://github.com/LingDong-/",
+      "Github": "https://github.com/xinyuguan3/",
       "Vimeo": "https://vimeo.com/user48479503",
-      "Itch.io": "https://lingdonh.itch.io/",
+      "Itch.io": "https://xinyuguan3.itch.io/",
       "Résumé": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Flingdonh-resume.pdf?v=1566371622525"
     },
     "medium": [
-      ""
+      "C#"
     ],
     "date": {
-      "month": 7,
-      "year": 1997
+      "month": 5,
+      "year": 2020
     }
   },{
     "title": "W is Right",
@@ -31,13 +31,13 @@
         "position": "50% 50%"
       }
     ],
-    "description": "Interactive procedurally generated landscapes.",
+    "description": "Copy of Baba is you, but player needs to change keybind linking to the movement.",
     "links": {
       "Youtube": "https://www.youtube.com/watch?v=mPYeTJd8klQ",
-      "Github": "https://github.com/LingDong-/Hermit"
+      "Github": "https://github.com/xinyuguan3/wIsRight"
     },
     "medium": [
-      "Python"
+      "C++"
     ],
     "date": {
       "month": 11,
@@ -45,7 +45,7 @@
     }
   },
   {
-    "title": "Fauna of Sloogia",
+    "title": "First Year(万历元年)",
     "images": [
       {
         "url": "media/sloogia.png",
@@ -53,19 +53,19 @@
         "position": "50% 40%"
       }
     ],
-    "description": "Book of generated imaginary creatures.",
+    "description": "Go through first 12months as a young emperor of ancient China,experience complex economy of china culture.",
     "links": {
       "Blurb": "https://www.blurb.com/books/7429507-fauna-of-sloogia-generative-creatures",
       "PDF": "https://cmuems.com/2016/60212/wp-content/uploads/2016/12/MuKJ8N.pdf",
       "Documentation": "./documentation?https://dl.dropbox.com/s/28k0hv421ofk9pz/fauna-of-sloogia.md"
     },
     "medium": [
-      "Processing",
-      "Basil.js"
+      "C#",
+      "BoardGame"
     ],
     "date": {
-      "month": 10,
-      "year": 2016
+      "month": 08,
+      "year": 2020
     }
   },
   {
