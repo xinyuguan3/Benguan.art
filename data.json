@@ -64,12 +64,12 @@
       "BoardGame"
     ],
     "date": {
-      "month": 08,
+      "month": 8,
       "year": 2020
     }
   },
   {
-    "title": "Plotter Landscapes",
+    "title": "Social Dilemma",
     "images": [
       {
         "url": "media/plotter.jpg",
@@ -77,21 +77,21 @@
         "position": "50% 50%"
       }
     ],
-    "description": "Generative landscapes for plotters.",
+    "description": "Play as the algorithm of social media company, to not get killed by company you need to send post to the users. At the same time, you can see their individual life through the camera, seeing how media reshaped them and twist their lives apart",
     "links": {
       "Code & Documentation": "./documentation?https://dl.dropbox.com/s/tpir3t6upd4zyvn/plotter-landscapes.md"
     },
     "medium": [
-      "Processing",
-      "Axidraw"
+      "C#",
+      "Unity"
     ],
     "date": {
-      "month": 9,
-      "year": 2016
+      "month": 12,
+      "year": 2019
     }
   },
   {
-    "title": "Face-Powered Shooter",
+    "title": "Heart of Gamer",
     "images": [
       {
         "url": "media/fps.gif",
@@ -99,22 +99,22 @@
         "position": "50% 50%"
       }
     ],
-    "description": "First person shooter controlled by facial expressions.",
+    "description": "An ML program which inputs game as data using MDA to train AI make random games. LLM enables machine to better understand connections between Asthetic,Mechanic and Design(which are considered to be essence of game)",
     "links": {
       "Vimeo": "https://vimeo.com/187285292",
       "Code & Documentation": "./documentation?https://dl.dropbox.com/s/04i9dtxnz9h0rzm/face-powered-shooter.md?dl=0"
     },
     "medium": [
-      "Processing",
-      "FaceOSC"
+      "Never",
+      "Python"
     ],
     "date": {
-      "month": 10,
-      "year": 2016
+      "month": 2,
+      "year": 2021
     }
   },
   {
-    "title": "The Toilet Paper Printer",
+    "title": "Social Simulator",
     "images": [
       {
         "url": "media/printer.png",
@@ -122,23 +122,23 @@
         "position": "50% 10%"
       }
     ],
-    "description": "DIY plotter made with cardboard and straws.",
+    "description": "A Society consists of 200 generative agents, gpt faking their conversation based on the personalities and behaviors we input. If it works fine,will make it modable so player can basically simulate any society they want(fantasy/future/ancient/social experience)",
     "links": {
       "Vimeo": "https://vimeo.com/192161788",
       "Documentation": "./documentation?https://dl.dropbox.com/s/474wex4gfi9no27/toilet-paper-printer.md"
     },
     "medium": [
-      "Processing",
-      "Bash",
-      "littleBits"
+      "Python",
+      "Paper",
+      "Brain"
     ],
     "date": {
       "month": 10,
-      "year": 2016
+      "year": 2021
     }
   },
   {
-    "title": "Trashscape",
+    "title": "SmellyFartChang(臭皮匠）",
     "images": [
       {
         "url": "media/trashscape.png",
@@ -146,7 +146,7 @@
         "position": "0% 80%"
       }
     ],
-    "description": "Aman's portrait seen through his trash.",
+    "description": "Artistic try towards game media after viewing many artworks, what I did here is just like what filmmakers did towards film in the past century.",
     "links": {
       "Vimeo": "https://vimeo.com/204271262",
       "Doc": "./documentation?https://dl.dropbox.com/s/4d8hhvtaiaemb8j/trashscape.md",
@@ -158,12 +158,12 @@
       "PhotoScan Pro"
     ],
     "date": {
-      "month": 2,
-      "year": 2017
+      "month": 12,
+      "year": 2022
     }
   },
   {
-    "title": "photoBarcoder",
+    "title": "Arkala",
     "images": [
       {
         "url": "media/photobarcoder.bmp",
@@ -171,7 +171,7 @@
         "position": "50% 50%"
       }
     ],
-    "description": "Mobile app for turning photos into scannable barcodes.",
+    "description": "A web3 community game for youngsters with mental illnesses, plug-in chatgpt3.5 for potential psychological therapy.",
     "links": {
       "Vimeo": "https://vimeo.com/207668010",
       "Documentation": "./documentation?https://dl.dropbox.com/s/7h5ytkwdmz4z0i2/photo-barcoder.md"
@@ -182,11 +182,11 @@
     ],
     "date": {
       "month": 3,
-      "year": 2017
+      "year": 2023
     }
   },
   {
-    "title": "Image Sequencer",
+    "title": "Eye of Computer",
     "images": [
       {
         "url": "media/imgseq.png",
@@ -194,7 +194,7 @@
         "position": "50% 50%"
       }
     ],
-    "description": "Programmatically sequence crowd-sourced images into gifs.",
+    "description": "I made this artwork to show how silicon-creature comprehending the world. I gained more sympathy(empathy?) since I put myself in their shoes",
     "links": {
       "Documentation": "./documentation?https://dl.dropbox.com/s/0feqbm69w68ldoa/image-sequencer.md"
     },
@@ -203,12 +203,12 @@
       "OpenCV"
     ],
     "date": {
-      "month": 5,
-      "year": 2017
+      "month": 3,
+      "year": 2020
     }
   },
   {
-    "title": "Loopy Mocap Skin",
+    "title": "Swapping Receipts and Recipe",
     "images": [
       {
         "url": "media/mocap.png",
@@ -216,21 +216,21 @@
         "position": "10% 50%"
       }
     ],
-    "description": "Decorative skin for motion capture data.",
+    "description": "Shared Campus project theme of food culture, we didn't think, we got the job done.",
     "links": {
       "Vimeo": "https://vimeo.com/191059977",
       "Code & Documentation": "./documentation?https://dl.dropbox.com/s/wuagqc1llbe9jaa/loopy-mocap-skin.md"
     },
     "medium": [
-      "Processing"
+      "Food"
     ],
     "date": {
-      "month": 11,
-      "year": 2016
+      "month": 6,
+      "year": 2022
     }
   },
   {
-    "title": "Gen-a-city",
+    "title": "East Village",
     "images": [
       {
         "url": "media/genacity.jpg",
@@ -238,7 +238,7 @@
         "position": "0% 50%"
       }
     ],
-    "description": "Procedurally generated satellite image of cities.",
+    "description": "A murder mystery single player game in which chatgpt play as 6 suspects, player needs to typing to them, combing the clues picked from scene and guess who is real killer.",
     "links": {
       "Play Online": "http://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
     },
@@ -246,11 +246,11 @@
       "Javascript"
     ],
     "date": {
-      "month": 9,
-      "year": 2015
+      "month": 4,
+      "year": 2023
     }
   },{
-    "title": "Estoc",
+    "title": "Unfinished supersonic adventure",
     "images": [
       {
         "url": "media/estoc.gif",
@@ -258,22 +258,22 @@
         "position": "50% 80%"
       }
     ],
-    "description": "Competitive swordplay featuring dismemberment.",
+    "description": "2d platformer where the scene is completely dark, whenever a sound generates, there will be a visualized soundwave on screen. With the soundwave player can spot surrounding andmoving forward. It's literally unfinished cause we stuck on Unity tech limits, hofully we can get it done one day",
     "links": {
       "Steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=439698626",
       "Youtube": "https://www.youtube.com/watch?v=oXyUAyj3Go4"
     },
     "medium": [
-      "Lua",
+      "C#",
       "Love2D"
     ],
     "date": {
-      "month": 7,
-      "year": 2015
+      "month": 2,
+      "year": 2019
     }
   },
   {
-    "title": "Light Bearer",
+    "title": "play shallow, shallow play",
     "images": [
       {
         "url": "media/lightbearer.gif",
@@ -281,7 +281,7 @@
         "position": "50% 80%"
       }
     ],
-    "description": "A tiny game about light and darkness.",
+    "description": "You need to write a series of game-reviews only by the introductions of game developers, the reviews you wrote will be examined by pre-trained NLP model for the game, two players with opposite opinions will be matched together to make a similar genre game.",
     "links": {
       "Itch.io": "https://lingdonh.itch.io/light-bearer"
     },
@@ -289,8 +289,8 @@
       "p5.js"
     ],
     "date": {
-      "month": 12,
-      "year": 2015
+      "month": 1,
+      "year": 2023
     }
   },
   {
