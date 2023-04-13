@@ -115,12 +115,12 @@ function generate(data,hata){
   return html;
 }
   
-loadJSON("data.json",function(data){
+loadJSON("./data.json",function(data){
   data = JSON.parse(data);
   data.sort(function(a,b){
     return - (a.date.year * 100 + a.date.month) + (b.date.year * 100 + b.date.month);
   })
-  loadJSON("hired_work/data.json",function(data_hired){
+  loadJSON("./hired_work/data.json",function(data_hired){
     data_hired = JSON.parse(data_hired);
     data_hired.sort(function(a,b){
       return - (a.date.year * 100 + a.date.month) + (b.date.year * 100 + b.date.month);

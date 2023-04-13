@@ -261,7 +261,10 @@ function init(){
     hidebywidth();
   });
   
-  loadJSON("./data.json",function(response) {
+  loadJSON("data.json",function(response) {
+    // Debug line to indicate if "data.json" successfully loaded
+console.log("Data successfully loaded from data.json");
+
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
     CURR_DATA = DATA;
@@ -270,6 +273,8 @@ function init(){
       document.getElementById("viz").innerHTML = timeline(DATA);
     }
   });
+  
+
   
   loadJSON("/hired_work/data.json",function(response) {
     DATA_HIRED = JSON.parse(response);
