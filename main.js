@@ -261,7 +261,7 @@ function init(){
     hidebywidth();
   });
   
-  loadJSON("/data.json",function(response) {
+  loadJSON("./data.json",function(response) {
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
     CURR_DATA = DATA;
