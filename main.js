@@ -46,7 +46,7 @@ function loadprojs(data){
         + "width:256px;height:180px;"
         + "border-radius : 3px 3px 0px 0px"
         + "\"></div>"
-    
+        console.log("Images successfully loaded from data.json,background-image:url("+im.url+");");
     var outlinks = "<table style='max-height:24px; display: block;'><tr>"
     outlinks += "<td><i class='material-icons' "
              +  "style='font-size:20px;color:grey'>link&nbsp;</i></td><td><table><tr>"
@@ -263,7 +263,7 @@ function init(){
   
   loadJSON("data.json",function(response) {
     // Debug line to indicate if "data.json" successfully loaded
-console.log("Data successfully loaded from data.json");
+
 
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
@@ -276,7 +276,8 @@ console.log("Data successfully loaded from data.json");
   
 
   
-  loadJSON("/hired_work/data.json",function(response) {
+  // loadJSON("/hired_work/data.json",function(response) {
+    loadJSON("data.json",function(response) {
     DATA_HIRED = JSON.parse(response);
     DATA_HIRED.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
     if (IS_HIRED){

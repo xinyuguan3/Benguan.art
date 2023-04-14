@@ -3,7 +3,7 @@
     "title": "Biology Game",
     "images": [
       {
-        "url": "img/Biology Game.jpg",
+        "url": "img/Games/14.png",
         "size": "140%",
         "position": "50% 35%"
       }
@@ -11,7 +11,7 @@
     "description": "Simulation of anatomical micro world, that society is just like another country, except smaller",
     "links": {
       "Github": "https://github.com/xinyuguan3/",
-      "Vimeo": "https://vimeo.com/user48479503",
+      "Documentation": "BiologyGame.html",
        "Itch.io": "https://xinyuguan3.itch.io/",
       "Résumé": "BenCV.pdf"
     },
@@ -26,7 +26,7 @@
     "title": "W is Right",
     "images": [
       {
-        "url": "img/W is Right.jpg",
+        "url": "img/wIsRight.jpg",
         "size": "100%",
         "position": "50% 50%"
       }
@@ -72,8 +72,8 @@
     "title": "Social Dilemma",
     "images": [
       {
-        "url": "media/plotter.jpg",
-        "size": "150%",
+        "url": "img/Games/23.png",
+        "size": "80%",
         "position": "50% 50%"
       }
     ],
@@ -95,6 +95,29 @@
     "images": [
       {
         "url": "media/fps.gif",
+        "size": "130%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "An ML program which inputs game as data using MDA to train AI make random games. LLM enables machine to better understand connections between Asthetic,Mechanic and Design(which are considered to be essence of game)",
+    "links": {
+      "Vimeo": "",
+      "Code & Documentation": ""
+    },
+    "medium": [
+      "Never",
+      "Python"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2021
+    }
+  },
+  {
+    "title": "聊斋志异",
+    "images": [
+      {
+        "url": "img/Games/23.png",
         "size": "130%",
         "position": "50% 50%"
       }
@@ -173,7 +196,7 @@
     ],
     "description": "A web3 community game for youngsters with mental illnesses, plug-in chatgpt3.5 for potential psychological therapy.",
     "links": {
-      "Vimeo": "",
+      "Youtube": "https://www.youtube.com/watch?v=xWnN3o1bstU&t=1s",
       "Documentation": ""
     },
     "medium": [
@@ -442,6 +465,28 @@
       "year": 2018
     }
   },{
+    "title": "strange tale",
+    "images": [
+      {
+        "url": "img/StrangeTale.jpg",
+        "size": "100%",
+        "position": "50% 10%"
+      }
+    ],
+    "description": "A recursive text-adventure game where two games happen simultaneously inside the screen and outside the screen.",
+    "links": {
+      "Github": "",
+      "Play Online": "",
+      "Doc": ""
+    },
+    "medium": [
+      "Javascript"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2018
+    }
+  },{
     "title": "Within one Arm",
     "images": [
       {
@@ -450,9 +495,9 @@
         "position": "10% 10%"
       }
     ],
-    "description": "Experimental film about a dream.",
+    "description": "Experimental VR film about experiencing four types of visual impares.",
     "links": {
-      "Vimeo": ""
+      "Bilibili": "https://www.bilibili.com/video/BV1oM4y1m79g/?spm_id_from=333.999.0.0&vd_source=a9ee34e95c1a809cca36a776e387600c"
     },
     "medium": [
       "Adobe Premiere Pro"
@@ -470,9 +515,9 @@
         "position": "0% 0%"
       }
     ],
-    "description": "Seamlessly tilable texture featuring human powered computers.",
+    "description": "A small 2-player fighting boardgame based on boardgame <love letter>.",
     "links": {
-       "Documentation": ""
+       "Bilibili": "https://www.bilibili.com/video/BV13c411j7pj/?spm_id_from=333.999.0.0&vd_source=a9ee34e95c1a809cca36a776e387600c"
     },
     "medium": [
       "Screen print"
@@ -527,18 +572,18 @@
     "title": "farming game",
     "images": [
       {
-        "url": "img/Biology Game.jpg",
+        "url": "img/Games/14.png",
         "size": "100%",
         "position": "30% 55%"
       }
     ],
-    "description": "A new method for describing and visualizing Chinese characters.",
+    "description": "A stardew valley like farming game.",
     "links": {
        "Github": "",
        "Play Online": ""
     },
     "medium": [
-      "Javascript", "Python"
+      "Unity", "C#"
     ],
     "date": {
       "month": 10,

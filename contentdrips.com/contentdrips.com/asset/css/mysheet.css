@@ -603,7 +603,7 @@ input:checked+.slider:before {
 }
 
 .hellobar-toggle:hover~.hellobar-arrow:after {
-    background-color: #333;
+    background-color: #333333;
 }
 
 .hellobar-toggle:hover~.hellobar-arrow:before {
