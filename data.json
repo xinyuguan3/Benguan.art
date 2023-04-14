@@ -12,8 +12,8 @@
     "links": {
       "Github": "https://github.com/xinyuguan3/",
       "Vimeo": "https://vimeo.com/user48479503",
-      "Itch.io": "https://xinyuguan3.itch.io/",
-      "Résumé": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Flingdonh-resume.pdf?v=1566371622525"
+       "Itch.io": "https://xinyuguan3.itch.io/",
+      "Résumé": "BenCV.pdf"
     },
     "medium": [
       "C#"
@@ -33,7 +33,7 @@
     ],
     "description": "Copy of Baba is you, but player needs to change keybind linking to the movement.",
     "links": {
-      "Youtube": "https://www.youtube.com/watch?v=mPYeTJd8klQ",
+      "Youtube": "",
       "Github": "https://github.com/xinyuguan3/wIsRight"
     },
     "medium": [
@@ -55,9 +55,9 @@
     ],
     "description": "Go through first 12months as a young emperor of ancient China,experience complex economy of china culture.",
     "links": {
-      "Blurb": "https://www.blurb.com/books/7429507-fauna-of-sloogia-generative-creatures",
-      "PDF": "https://cmuems.com/2016/60212/wp-content/uploads/2016/12/MuKJ8N.pdf",
-      "Documentation": "./documentation?https://dl.dropbox.com/s/28k0hv421ofk9pz/fauna-of-sloogia.md"
+      "Blurb": "",
+      "PDF": "",
+      "Documentation": ""
     },
     "medium": [
       "C#",
@@ -79,7 +79,7 @@
     ],
     "description": "Play as the algorithm of social media company, to not get killed by company you need to send post to the users. At the same time, you can see their individual life through the camera, seeing how media reshaped them and twist their lives apart",
     "links": {
-      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/tpir3t6upd4zyvn/plotter-landscapes.md"
+      "Code & Documentation": ""
     },
     "medium": [
       "C#",
@@ -101,8 +101,8 @@
     ],
     "description": "An ML program which inputs game as data using MDA to train AI make random games. LLM enables machine to better understand connections between Asthetic,Mechanic and Design(which are considered to be essence of game)",
     "links": {
-      "Vimeo": "https://vimeo.com/187285292",
-      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/04i9dtxnz9h0rzm/face-powered-shooter.md?dl=0"
+      "Vimeo": "",
+      "Code & Documentation": ""
     },
     "medium": [
       "Never",
@@ -125,7 +125,7 @@
     "description": "A Society consists of 200 generative agents, gpt faking their conversation based on the personalities and behaviors we input. If it works fine,will make it modable so player can basically simulate any society they want(fantasy/future/ancient/social experience)",
     "links": {
       "Vimeo": "https://vimeo.com/192161788",
-      "Documentation": "./documentation?https://dl.dropbox.com/s/474wex4gfi9no27/toilet-paper-printer.md"
+      "Documentation": ""
     },
     "medium": [
       "Python",
@@ -148,9 +148,9 @@
     ],
     "description": "Artistic try towards game media after viewing many artworks, what I did here is just like what filmmakers did towards film in the past century.",
     "links": {
-      "Vimeo": "https://vimeo.com/204271262",
-      "Doc": "./documentation?https://dl.dropbox.com/s/4d8hhvtaiaemb8j/trashscape.md",
-      "Mac Download": "https://drive.google.com/file/d/0B1w_KJh9VUO7NERpSmJmWWxISHM/view?usp=sharing"
+      "Vimeo": "",
+      "Doc": "",
+      "Mac Download": ""
     },
     "medium": [
       "C#",
@@ -173,8 +173,8 @@
     ],
     "description": "A web3 community game for youngsters with mental illnesses, plug-in chatgpt3.5 for potential psychological therapy.",
     "links": {
-      "Vimeo": "https://vimeo.com/207668010",
-      "Documentation": "./documentation?https://dl.dropbox.com/s/7h5ytkwdmz4z0i2/photo-barcoder.md"
+      "Vimeo": "",
+      "Documentation": ""
     },
     "medium": [
       "Python",
@@ -196,7 +196,7 @@
     ],
     "description": "I made this artwork to show how silicon-creature comprehending the world. I gained more sympathy(empathy?) since I put myself in their shoes",
     "links": {
-      "Documentation": "./documentation?https://dl.dropbox.com/s/0feqbm69w68ldoa/image-sequencer.md"
+      "Documentation": ""
     },
     "medium": [
       "Python",
@@ -218,8 +218,8 @@
     ],
     "description": "Shared Campus project theme of food culture, we didn't think, we got the job done.",
     "links": {
-      "Vimeo": "https://vimeo.com/191059977",
-      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/wuagqc1llbe9jaa/loopy-mocap-skin.md"
+      "Vimeo": "",
+      "Code & Documentation": ""
     },
     "medium": [
       "Food"
@@ -240,7 +240,7 @@
     ],
     "description": "A murder mystery single player game in which chatgpt play as 6 suspects, player needs to typing to them, combing the clues picked from scene and guess who is real killer.",
     "links": {
-      "Play Online": "http://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
+      "Play Online": ""
     },
     "medium": [
       "Javascript"
@@ -260,8 +260,8 @@
     ],
     "description": "2d platformer where the scene is completely dark, whenever a sound generates, there will be a visualized soundwave on screen. With the soundwave player can spot surrounding andmoving forward. It's literally unfinished cause we stuck on Unity tech limits, hofully we can get it done one day",
     "links": {
-      "Steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=439698626",
-      "Youtube": "https://www.youtube.com/watch?v=oXyUAyj3Go4"
+      "Steam": "",
+      "Youtube": ""
     },
     "medium": [
       "C#",
@@ -283,7 +283,7 @@
     ],
     "description": "You need to write a series of game-reviews only by the introductions of game developers, the reviews you wrote will be examined by pre-trained NLP model for the game, two players with opposite opinions will be matched together to make a similar genre game.",
     "links": {
-      "Itch.io": "https://lingdonh.itch.io/light-bearer"
+      "Itch.io": ""
     },
     "medium": [
       "p5.js"
@@ -304,8 +304,8 @@
     ],
     "description": "Combining Tetris and GO, game tempo increases titanically.",
     "links": {
-      "Github": "https://github.com/LingDong-/ci-ren",
-      "Play Online": "https://lingdong-.github.io/ci-ren/"
+      "Github": "",
+      "Play Online": ""
     },
     "medium": [
       "Python",
@@ -326,7 +326,7 @@
     ],
     "description": "Manipulate two screens adn the same time,right screen is internal world of protagonist and left screen is external world.While going to dangerous place player needs to fight physically, while sans too low player needs to fight the monster from internal world",
     "links": {
-      "Github": "https://github.com/memegen/imgmarkov"
+      "Github": ""
     },
     "medium": [
       "Python"
@@ -346,7 +346,7 @@
     ],
     "description": "A hololens AR unity project I collaborate to make for Bosch.",
     "links": {
-      "Github": "https://github.com/LingDong-/linedraw"
+      "Github": ""
     },
     "medium": [
       "Python",
@@ -367,7 +367,7 @@
     ],
     "description": "Multiplayer Generative Beast Racing & Betting.",
     "links": {
-      "Itch.io": "https://lingdonh.itch.io/better-horses"
+       "Itch.io": ""
     },
     "medium": [
       "C#",
@@ -388,7 +388,7 @@
     ],
     "description": "Local 2-player face-biting simulation.",
     "links": {
-      "Itch.io": "https://lingdonh.itch.io/normal-human-face-simulator"
+       "Itch.io": ""
     },
     "medium": [
       "Lua",
@@ -409,8 +409,8 @@
     ],
     "description": "a 2-player local boxing game using kinect, you need to actually boxing to make virtual avatar fight.",
     "links": {
-      "Github": "https://github.com/LingDong-/shan-shui-inf",
-      "Play Online": "https://lingdong-.github.io/shan-shui-inf"
+      "Github": "",
+      "Play Online": ""
     },
     "medium": [
       "Javascript"
@@ -430,9 +430,9 @@
     ],
     "description": "Player needs to take away the covid virus from hong kong district, on the background there is news talking about increasing covid numbers.",
     "links": {
-      "Github": "https://github.com/LingDong-/nonflowers",
-      "Play Online": "https://lingdong-.github.io/nonflowers/",
-      "Doc": "https://drive.google.com/file/d/1g1gVmRKdn4He0fgavvKt54tb6HmMYANU/view"
+      "Github": "",
+      "Play Online": "",
+      "Doc": ""
     },
     "medium": [
       "Javascript"
@@ -452,7 +452,7 @@
     ],
     "description": "Experimental film about a dream.",
     "links": {
-      "Vimeo": "https://vimeo.com/165344992"
+      "Vimeo": ""
     },
     "medium": [
       "Adobe Premiere Pro"
@@ -472,7 +472,7 @@
     ],
     "description": "Seamlessly tilable texture featuring human powered computers.",
     "links": {
-      "Documentation": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-tile.png?1543713069304"
+       "Documentation": ""
     },
     "medium": [
       "Screen print"
@@ -492,8 +492,8 @@
     ],
     "description": "Procedurally generated cities with photorealistic rendering by Pix2Pix.",
     "links": {
-      "Github": "https://github.com/DerTarchin/Pix2Pix-Generative-Cities",
-      "Youtube": "https://www.youtube.com/watch?v=-P_Sfl4e1xo"
+      "Github": "",
+      "Youtube": ""
     },
     "medium": [
       "C#", "Unity", "Python"
@@ -513,8 +513,8 @@
     ],
     "description": "Turn your scribbles into Chinese calligraphy.",
     "links": {
-      "Github": "https://github.com/LingDong-/edges2calligraphy",
-      "Play Online": "https://lingdong-.github.io/edges2calligraphy/"
+      "Github": "",
+      "Play Online": ""
     },
     "medium": [
       "Javascript", "Python"
@@ -534,8 +534,8 @@
     ],
     "description": "A new method for describing and visualizing Chinese characters.",
     "links": {
-      "Github": "https://github.com/LingDong-/rrpl",
-      "Play Online": "https://chinese-radical-vis.glitch.me"
+       "Github": "",
+       "Play Online": ""
     },
     "medium": [
       "Javascript", "Python"
@@ -555,8 +555,8 @@
     ],
     "description": "Manual for advanced multi-directional human seating device",
     "links": {
-      "PDF": "https://drive.google.com/file/d/15M94-hDETjHW4BqbujPpiFcxn4GTUNes/view?usp=sharing",
-      "Documentation": "https://drive.google.com/file/d/1_wZQRgoSYkjwTlrCFNN76z_mTvEqHeOW/view?usp=sharing"
+      "PDF": "",
+      "Documentation": ""
     },
     "medium": [
       "Digital print"
