@@ -117,9 +117,9 @@
     "title": "聊斋志异",
     "images": [
       {
-        "url": "img/Games/23.png",
-        "size": "130%",
-        "position": "50% 50%"
+        "url": "img/liaozhai.png",
+        "size": "100%",
+        "position": "20% 50%"
       }
     ],
     "description": "An ML program which inputs game as data using MDA to train AI make random games. LLM enables machine to better understand connections between Asthetic,Mechanic and Design(which are considered to be essence of game)",
@@ -140,8 +140,8 @@
     "title": "Social Simulator",
     "images": [
       {
-        "url": "media/printer.png",
-        "size": "400%",
+        "url": "img/humanNetwork.png",
+        "size": "200%",
         "position": "50% 10%"
       }
     ],
@@ -158,6 +158,31 @@
     "date": {
       "month": 10,
       "year": 2021
+    }
+  },
+  
+  {
+    "title": "为商之道",
+    "images": [
+      {
+        "url": "img/SilkRoadStory.jpg",
+        "size": "80%",
+        "position": "50% 10%"
+      }
+    ],
+    "description": "Play as a buisinessman walking in the silkroad",
+    "links": {
+      "Vimeo": "https://vimeo.com/192161788",
+      "Documentation": ""
+    },
+    "medium": [
+      "Python",
+      "Paper",
+      "Brain"
+    ],
+    "date": {
+      "month": 12,
+      "year": 2022
     }
   },
   {
@@ -276,9 +301,9 @@
     "title": "Unfinished supersonic adventure",
     "images": [
       {
-        "url": "media/estoc.gif",
-        "size": "200%",
-        "position": "50% 80%"
+        "url": "img/soundwave.png",
+        "size": "120%",
+        "position": "50% 50%"
       }
     ],
     "description": "2d platformer where the scene is completely dark, whenever a sound generates, there will be a visualized soundwave on screen. With the soundwave player can spot surrounding andmoving forward. It's literally unfinished cause we stuck on Unity tech limits, hofully we can get it done one day",
@@ -320,9 +345,9 @@
     "title": "Tetris Go(围块)",
     "images": [
       {
-        "url": "media/ciren.png",
-        "size": "280%",
-        "position": "50% 45%"
+        "url": "img/tetrisGo.png",
+        "size": "200%",
+        "position": "50% 0%"
       }
     ],
     "description": "Combining Tetris and GO, game tempo increases titanically.",
@@ -343,8 +368,8 @@
     "images": [
       {
         "url": "img/NeonCthulhu.png",
-        "size": "100%",
-        "position": "80% 0%"
+        "size": "110%",
+        "position": "80% 40%"
       }
     ],
     "description": "Manipulate two screens adn the same time,right screen is internal world of protagonist and left screen is external world.While going to dangerous place player needs to fight physically, while sans too low player needs to fight the monster from internal world",
