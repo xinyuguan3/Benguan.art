@@ -2,13 +2,14 @@ body {
     font-family: "Helvetica Neue", Helvetica;
     -webkit-font-smoothing: antialiased;
     line-height: 1.4rem;
-    margin: 0 auto;
-    max-width: 768px;
+    /* margin: 0 auto; */
+    /* max-width: 768px; */
+    max-width: 2540px;
     color: #222;
 }
 
 #content2 {
-    margin: 0rem 1rem 1rem 1rem;
+    margin: 0 25%;
 }
 
 h1 {

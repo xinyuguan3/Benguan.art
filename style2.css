@@ -71,7 +71,7 @@
   
   body{
     /* background-color:#fafafa; */
-  /*   background-image:url(images/paper1.png); */
+  /*   background-image:url(img/ba.jpg); */
     background-size:50%;
     /* text-align: center; */
     margin : 0px  0px 0px 0px;
@@ -79,10 +79,11 @@
     font-family: 'Open Sans', sans-serif;
   }
   #content{
-    margin: 0px 0px 0px 0px;
+    /* margin: 0px 0px 0px 0px; */
+    margin: 0 12%;
     padding: 0px 0px 0px 0px;
   /*   background-color:#fafafa; */
-    /* text-align: center; */
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
   }
   #nav{
@@ -177,6 +178,7 @@
   }
   .cell-w{
     display:inline-block;
+    /* display:block; */
     padding: 20px;
     overflow: hidden;
   }
@@ -184,8 +186,8 @@
   .cell{
     display:table;
     width:256px;
-    height:330px !important;
-    max-height:330px !important;
+    height:360px !important;
+    max-height:360px !important;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px #11111122;
     font-family: 'Open Sans', sans-serif;
