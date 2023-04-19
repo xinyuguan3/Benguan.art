@@ -71,7 +71,7 @@
   
   body{
     /* background-color:#fafafa; */
-  /*   background-image:url(img/ba.jpg); */
+    background-image:url(img/ba.jpg);
     background-size:50%;
     /* text-align: center; */
     margin : 0px  0px 0px 0px;
@@ -80,7 +80,7 @@
   }
   #content{
     /* margin: 0px 0px 0px 0px; */
-    margin: 0 25%;
+    margin: 0 12%;
     padding: 0px 0px 0px 0px;
   /*   background-color:#fafafa; */
     text-align: left;
@@ -89,6 +89,7 @@
   #nav{
     background-color: #477298;
     color: white;
+    
     font-family: 'Open Sans', sans-serif;
     box-shadow: 2px 2px 2px #11111122;
     width:100%;
@@ -186,8 +187,8 @@
   .cell{
     display:table;
     width:256px;
-    height:360px !important;
-    max-height:360px !important;
+    height:420px !important;
+    max-height:420px !important;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px #11111122;
     font-family: 'Open Sans', sans-serif;

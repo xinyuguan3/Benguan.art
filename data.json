@@ -33,8 +33,8 @@
     ],
     "description": "Copy of Baba is you, but player needs to change keybind linking to the movement.",
     "links": {
-      "Youtube": "",
-      "Github": "https://github.com/xinyuguan3/wIsRight"
+      "Itch.io(Win)": "https://gxyguan55.itch.io/w-is-right",
+      "Bilibili": "https://www.bilibili.com/video/BV1s84y1w7Gr/?spm_id_from=333.999.0.0"
     },
     "medium": [
       "C++"
@@ -196,9 +196,9 @@
     ],
     "description": "Artistic try towards game media after viewing many artworks, what I did here is just like what filmmakers did towards film in the past century.",
     "links": {
-      "Vimeo": "",
-      "Doc": "",
-      "Mac Download": ""
+      "Itch.io(Mac)": "https://gxyguan55.itch.io/smellyfartchang",
+      "Doc": ""
+      
     },
     "medium": [
       "C#",
@@ -515,7 +515,7 @@
     "title": "Within one Arm",
     "images": [
       {
-        "url": "media/pom.jpg",
+        "url": "img/WithinOneArm.png",
         "size": "100%",
         "position": "10% 10%"
       }
