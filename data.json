@@ -94,7 +94,7 @@
     "title": "Heart of Gamer",
     "images": [
       {
-        "url": "media/fps.gif",
+        "url": "img/LearningGameBrief",
         "size": "130%",
         "position": "50% 50%"
       }
@@ -191,7 +191,7 @@
       {
         "url": "img/smellyFartChang.png",
         "size": "100%",
-        "position": "0% 80%"
+        "position": "30% 0%"
       }
     ],
     "description": "Artistic try towards game media after viewing many artworks, what I did here is just like what filmmakers did towards film in the past century.",
