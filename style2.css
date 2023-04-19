@@ -6,6 +6,7 @@
   }
   
   .material-icons {
+    
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -13,6 +14,7 @@
     display: inline-block;
     line-height: 1;
     text-transform: none;
+    /* text-align: center; */
     letter-spacing: normal;
     word-wrap: normal;
     white-space: nowrap;
@@ -71,7 +73,7 @@
   
   body{
     /* background-color:#fafafa; */
-    background-image:url(img/ba.jpg);
+    background-image:url(img/bd.png);
     background-size:50%;
     /* text-align: center; */
     margin : 0px  0px 0px 0px;

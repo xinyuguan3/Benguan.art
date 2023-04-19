@@ -4,8 +4,8 @@
     "images": [
       {
         "url": "img/Games/14.png",
-        "size": "140%",
-        "position": "50% 35%"
+        "size": "100%",
+        "position": "80% 35%"
       }
     ],
     "description": "Simulation of anatomical micro world, that society is just like another country, except smaller",
@@ -94,8 +94,8 @@
     "title": "Heart of Gamer",
     "images": [
       {
-        "url": "img/LearningGameBrief",
-        "size": "130%",
+        "url": "img/LearningGameBrief.png",
+        "size": "100%",
         "position": "50% 50%"
       }
     ],
@@ -237,7 +237,7 @@
     "title": "Eye of Computer",
     "images": [
       {
-        "url": "media/imgseq.png",
+        "url": "img/ComputerEye.png",
         "size": "120%",
         "position": "50% 50%"
       }
@@ -256,15 +256,15 @@
     }
   },
   {
-    "title": "Swapping Receipts and Recipe",
+    "title": "Receipts and Recipe",
     "images": [
       {
-        "url": "media/mocap.png",
-        "size": "150%",
+        "url": "img/RR.png",
+        "size": "100%",
         "position": "10% 50%"
       }
     ],
-    "description": "Shared Campus project theme of food culture, we didn't think, we got the job done.",
+    "description": "A project let people exchange receipts and recipe, art project about food culture.",
     "links": {
       "Vimeo": "",
       "Code & Documentation": ""
@@ -384,6 +384,26 @@
       "year": 2022
     }
   },{
+    "title": "Neon Cthulhu",
+    "images": [
+      {
+        "url": "img/NeonCthulhu.png",
+        "size": "110%",
+        "position": "80% 40%"
+      }
+    ],
+    "description": "Manipulate two screens adn the same time,right screen is internal world of protagonist and left screen is external world.While going to dangerous place player needs to fight physically, while sans too low player needs to fight the monster from internal world",
+    "links": {
+      "Github": ""
+    },
+    "medium": [
+      "Python"
+    ],
+    "date": {
+      "month": 6,
+      "year": 2022
+    }
+  },{
     "title": "car XR Demo",
     "images": [
       {
@@ -408,8 +428,8 @@
     "title": "Whose Wife anyway?",
     "images": [
       {
-        "url": "media/betterhorses.png",
-        "size": "180%",
+        "url": "img/WhoseWifeAnyway.png",
+        "size": "100%",
         "position": "40% 65%"
       }
     ],
@@ -516,8 +536,8 @@
     "images": [
       {
         "url": "img/WithinOneArm.png",
-        "size": "100%",
-        "position": "10% 10%"
+        "size": "150%",
+        "position": "0% 10%"
       }
     ],
     "description": "Experimental VR film about experiencing four types of visual impares.",
@@ -555,22 +575,22 @@
     "title": "Fix you",
     "images": [
       {
-        "url": "media/pix2pixcity.jpg",
+        "url": "img/FixYou.jpg",
         "size": "100%",
         "position": "40% 0%"
       }
     ],
-    "description": "Procedurally generated cities with photorealistic rendering by Pix2Pix.",
+    "description": "One-time only narrative boardgame.",
     "links": {
-      "Github": "",
-      "Youtube": ""
+      "Documentation": "https://globalgamejam.org/2020/games/memories-8"
+      
     },
     "medium": [
-      "C#", "Unity", "Python"
+      "BoardGame"
     ],
     "date": {
-      "month": 5,
-      "year": 2018
+      "month": 2,
+      "year": 2020
     }
   },{
     "title": "VR fishing",
@@ -597,7 +617,7 @@
     "title": "farming game",
     "images": [
       {
-        "url": "img/Games/14.png",
+        "url": "img/FarmingGame.jpg",
         "size": "100%",
         "position": "30% 55%"
       }
@@ -623,7 +643,7 @@
         "position": "-50% 50%"
       }
     ],
-    "description": "Manual for advanced multi-directional human seating device",
+    "description": "Inspired by Inception movie, where player need to play 3-layers of games simultanoiusly.",
     "links": {
       "PDF": "",
       "Documentation": ""
