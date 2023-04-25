@@ -136,14 +136,13 @@
     "title": "Social Simulator",
     "images": [
       {
-        "url": "humanNetwork.png",
-        "size": "200%",
+        "url": "img/humanNetwork.png",
+        "size": "150%",
         "position": "50% 10%"
       }
     ],
     "description": "A Society consists of 200 generative agents, gpt faking their conversation based on the personalities and behaviors we input. If it works fine,will make it modable so player can basically simulate any society they want(fantasy/future/ancient/social experience)",
     "links": {
-      "Vimeo": "https://vimeo.com/192161788",
       "Documentation": ""
     },
     "medium": [
@@ -156,12 +155,11 @@
       "year": 2021
     }
   },
-  
   {
     "title": "为商之道",
     "images": [
       {
-        "url": "SilkRoadStory.jpg",
+        "url": "img/SilkRoadStory.jpg",
         "size": "80%",
         "position": "50% 10%"
       }
