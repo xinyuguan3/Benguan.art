@@ -11,9 +11,7 @@
     "description": "Simulation of anatomical micro world, that society is just like another country, except smaller",
     "links": {
       "Github": "https://github.com/xinyuguan3/",
-      "Documentation": "BiologyGame.html",
-       "Itch.io": "https://xinyuguan3.itch.io/",
-      "Résumé": "BenCV.pdf"
+      "Documentation": "BiologyGame.html"
     },
     "medium": [
       "C#"
@@ -48,14 +46,13 @@
     "title": "First Year(万历元年)",
     "images": [
       {
-        "url": "media/sloogia.png",
-        "size": "200%",
+        "url": "img/Wanli.jpg",
+        "size": "120%",
         "position": "50% 40%"
       }
     ],
     "description": "Go through first 12months as a young emperor of ancient China,experience complex economy of china culture.",
     "links": {
-      "Blurb": "",
       "PDF": "",
       "Documentation": ""
     },
@@ -95,7 +92,7 @@
     "images": [
       {
         "url": "img/LearningGameBrief.png",
-        "size": "100%",
+        "size": "90%",
         "position": "50% 50%"
       }
     ],
@@ -172,7 +169,7 @@
     ],
     "description": "Play as a buisinessman walking in the silkroad",
     "links": {
-      "Vimeo": "https://vimeo.com/192161788",
+      
       "Documentation": ""
     },
     "medium": [
@@ -214,8 +211,8 @@
     "title": "Arkala",
     "images": [
       {
-        "url": "media/photobarcoder.bmp",
-        "size": "130%",
+        "url": "img/Arkala2.png",
+        "size": "100%",
         "position": "50% 50%"
       }
     ],
@@ -225,8 +222,8 @@
       "Documentation": ""
     },
     "medium": [
-      "Python",
-      "Processing for Android"
+      "Unity",
+      "C#"
     ],
     "date": {
       "month": 3,
@@ -288,10 +285,11 @@
     ],
     "description": "A murder mystery single player game in which chatgpt play as 6 suspects, player needs to typing to them, combing the clues picked from scene and guess who is real killer.",
     "links": {
-      "Play Online": ""
+      "Code & Documentation": "https://nova-handbell-640.notion.site/487a761994b94855bf1f8aef9147eda6"
     },
     "medium": [
-      "Javascript"
+      "Unity",
+      "Chatgpt-3.5"
     ],
     "date": {
       "month": 4,
@@ -384,32 +382,12 @@
       "year": 2022
     }
   },{
-    "title": "Neon Cthulhu",
-    "images": [
-      {
-        "url": "img/NeonCthulhu.png",
-        "size": "110%",
-        "position": "80% 40%"
-      }
-    ],
-    "description": "Manipulate two screens adn the same time,right screen is internal world of protagonist and left screen is external world.While going to dangerous place player needs to fight physically, while sans too low player needs to fight the monster from internal world",
-    "links": {
-      "Github": ""
-    },
-    "medium": [
-      "Python"
-    ],
-    "date": {
-      "month": 6,
-      "year": 2022
-    }
-  },{
     "title": "car XR Demo",
     "images": [
       {
-        "url": "img/carXR.png",
-        "size": "220%",
-        "position": "70% 10%"
+        "url": "img/CarXRDemo.jpg",
+        "size": "100%",
+        "position": "130% 10%"
       }
     ],
     "description": "A hololens AR unity project I collaborate to make for Bosch.",
@@ -428,14 +406,14 @@
     "title": "Whose Wife anyway?",
     "images": [
       {
-        "url": "img/WhoseWifeAnyway.png",
+        "url": "img/WhoseWife.jpg",
         "size": "100%",
         "position": "40% 65%"
       }
     ],
-    "description": "Multiplayer Generative Beast Racing & Betting.",
+    "description": "A Drama I helped directing in University's drama club.",
     "links": {
-       "Itch.io": ""
+       "Documentation": "https://mp.weixin.qq.com/s/gG8xi2FtrCTcNu0gPpiv4w"
     },
     "medium": [
       "C#",
@@ -449,7 +427,7 @@
     "title": "秦国喜剧",
     "images": [
       {
-        "url": "media/nhfs.png",
+        "url": "img/QinDrama.jpg",
         "size": "100%",
         "position": "50% 40%"
       }
