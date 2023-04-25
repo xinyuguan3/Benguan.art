@@ -53,12 +53,11 @@
     ],
     "description": "Go through first 12months as a young emperor of ancient China,experience complex economy of china culture.",
     "links": {
-      "PDF": "",
       "Documentation": ""
     },
     "medium": [
       "C#",
-      "BoardGame"
+      "Unfinished"
     ],
     "date": {
       "month": 8,
@@ -278,9 +277,9 @@
     "title": "East Village",
     "images": [
       {
-        "url": "media/genacity.jpg",
-        "size": "150%",
-        "position": "0% 50%"
+        "url": "img/EastVillage.png",
+        "size": "100%",
+        "position": "50% 50%"
       }
     ],
     "description": "A murder mystery single player game in which chatgpt play as 6 suspects, player needs to typing to them, combing the clues picked from scene and guess who is real killer.",
@@ -306,12 +305,13 @@
     ],
     "description": "2d platformer where the scene is completely dark, whenever a sound generates, there will be a visualized soundwave on screen. With the soundwave player can spot surrounding andmoving forward. It's literally unfinished cause we stuck on Unity tech limits, hofully we can get it done one day",
     "links": {
-      "Steam": "",
-      "Youtube": ""
+      "Github": ""
+      
     },
     "medium": [
       "C#",
-      "Love2D"
+      "Unity",
+      "Unfinished"
     ],
     "date": {
       "month": 2,
@@ -332,7 +332,7 @@
       "Itch.io": ""
     },
     "medium": [
-      "p5.js"
+      "Unfinished"
     ],
     "date": {
       "month": 1,
@@ -413,7 +413,8 @@
     ],
     "description": "A Drama I helped directing in University's drama club.",
     "links": {
-       "Documentation": "https://mp.weixin.qq.com/s/gG8xi2FtrCTcNu0gPpiv4w"
+       "Documentation": "https://mp.weixin.qq.com/s/gG8xi2FtrCTcNu0gPpiv4w",
+       "Youtube":"https://youtu.be/g-SoR7oLg04"
     },
     "medium": [
       "C#",
@@ -432,13 +433,13 @@
         "position": "50% 40%"
       }
     ],
-    "description": "Local 2-player face-biting simulation.",
+    "description": "A Ironic Drama I played.",
     "links": {
-       "Itch.io": ""
+       "Bilibili": "https://www.bilibili.com/video/BV1kt411k7qE/?share_source=copy_web&vd_source=80bd0ad5f79db9d0fd91ca8f1c639ef2"
     },
     "medium": [
-      "Lua",
-      "Love2D"
+      "Threatre",
+      "Me"
     ],
     "date": {
       "month": 11,
@@ -448,15 +449,15 @@
     "title": "AR Boxing",
     "images": [
       {
-        "url": "/img/shanshui.jpg",
-        "size": "180%",
+        "url": "img/ARBoxing.png",
+        "size": "80%",
         "position": "40% 60%"
       }
     ],
     "description": "a 2-player local boxing game using kinect, you need to actually boxing to make virtual avatar fight.",
     "links": {
-      "Github": "",
-      "Play Online": ""
+      "Github": ""
+      
     },
     "medium": [
       "Javascript"
@@ -469,8 +470,8 @@
     "title": "covid in kinect",
     "images": [
       {
-        "url": "img/covidInKinect.png",
-        "size": "700%",
+        "url": "img/Covid.png",
+        "size": "100%",
         "position": "10% 10%"
       }
     ],
@@ -560,8 +561,8 @@
     ],
     "description": "One-time only narrative boardgame.",
     "links": {
-      "Documentation": "https://globalgamejam.org/2020/games/memories-8"
-      
+      "Documentation": "https://globalgamejam.org/2020/games/memories-8",
+      "Video":"https://drive.google.com/file/d/1ZIkDyX2ugM4sb0Vl4vqtP_fR4hptmUkT/view?usp=share_link"
     },
     "medium": [
       "BoardGame"
@@ -574,18 +575,18 @@
     "title": "VR fishing",
     "images": [
       {
-        "url": "media/e2c.png",
-        "size": "155%",
+        "url": "img/VRFishing.png",
+        "size": "100%",
         "position": "30% 55%"
       }
     ],
     "description": "Turn your scribbles into Chinese calligraphy.",
     "links": {
-      "Github": "",
-      "Play Online": ""
+      "Github": "https://github.com/xinyuguan3/VRFishFinal",
+      "Video": "https://drive.google.com/file/d/130ZaNoQxs5dqZKfQkUwbDfjt88blIhxB/view?usp=sharing"
     },
     "medium": [
-      "Javascript", "Python"
+      "Unreal Engine", "C++"
     ],
     "date": {
       "month": 4,
@@ -633,6 +634,30 @@
       "month": 11,
       "year": 2017
     }
+  },{
+    "title": "Get Together",
+    "images": [
+      {
+        "url": "img/GetTogether.png",
+        "size": "140%",
+        "position": "70% 100%"
+      }
+    ],
+    "description": "Single player game.",
+    "links": {
+      "Video": "https://drive.google.com/file/d/1oZXOj6ByYKe_QRE3EXdnlaLDE99XAVfZ/view?usp=share_link",
+      "Github":"https://github.com/xdd44-utopia/Gatherer",
+      "Bilibili":"https://www.bilibili.com/video/BV14B4y1w7mT/?spm_id_from=333.999.0.0&vd_source=a9ee34e95c1a809cca36a776e387600c"
+    },
+    "medium": [
+      "Unity"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2017
+    }
   }
+
+  
 
 ]
