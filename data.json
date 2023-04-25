@@ -136,7 +136,7 @@
     "title": "Social Simulator",
     "images": [
       {
-        "url": "img/humanNetwork.png",
+        "url": "humanNetwork.png",
         "size": "200%",
         "position": "50% 10%"
       }
@@ -161,7 +161,7 @@
     "title": "为商之道",
     "images": [
       {
-        "url": "img/SilkRoadStory.jpg",
+        "url": "SilkRoadStory.jpg",
         "size": "80%",
         "position": "50% 10%"
       }
@@ -172,9 +172,9 @@
       "Documentation": ""
     },
     "medium": [
-      "Python",
-      "Paper",
-      "Brain"
+      
+      "Unity",
+      "C#"
     ],
     "date": {
       "month": 12,
