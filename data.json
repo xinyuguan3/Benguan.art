@@ -39,7 +39,7 @@
     ],
     "date": {
       "month": 11,
-      "year": 2015
+      "year": 2020
     }
   },
   {
@@ -255,15 +255,15 @@
     "title": "Receipts and Recipe",
     "images": [
       {
-        "url": "img/RR.png",
+        "url": "img/SharedCampus.png",
         "size": "100%",
-        "position": "10% 50%"
+        "position": "50% 50%"
       }
     ],
     "description": "A project let people exchange receipts and recipe, art project about food culture.",
     "links": {
-      "Vimeo": "",
-      "Code & Documentation": ""
+      
+      "Documentation": "https://docs.google.com/presentation/d/1aPwIHIZURZmErukgiLFcl2C140lkkr5Ya_qgWZW2B4Q/edit?usp=sharing"
     },
     "medium": [
       "Food"
@@ -322,14 +322,14 @@
     "title": "play shallow, shallow play",
     "images": [
       {
-        "url": "media/lightbearer.gif",
-        "size": "150%",
+        "url": "img/APV.jpg",
+        "size": "100%",
         "position": "50% 80%"
       }
     ],
     "description": "You need to write a series of game-reviews only by the introductions of game developers, the reviews you wrote will be examined by pre-trained NLP model for the game, two players with opposite opinions will be matched together to make a similar genre game.",
     "links": {
-      "Itch.io": ""
+      "Nothing Available": ""
     },
     "medium": [
       "Unfinished"
@@ -400,7 +400,7 @@
     ],
     "date": {
       "month": 12,
-      "year": 2016
+      "year": 2022
     }
   },{
     "title": "Whose Wife anyway?",
@@ -422,7 +422,7 @@
     ],
     "date": {
       "month": 11,
-      "year": 2017
+      "year": 2019
     }
   },{
     "title": "秦国喜剧",
@@ -443,7 +443,7 @@
     ],
     "date": {
       "month": 11,
-      "year": 2017
+      "year": 2018
     }
   },{
     "title": "AR Boxing",
@@ -463,8 +463,8 @@
       "Javascript"
     ],
     "date": {
-      "month": 2,
-      "year": 2018
+      "month": 10,
+      "year": 2021
     }
   },{
     "title": "covid in kinect",
@@ -485,8 +485,8 @@
       "Javascript"
     ],
     "date": {
-      "month": 2,
-      "year": 2018
+      "month": 5,
+      "year": 2021
     }
   },{
     "title": "strange tale",
@@ -507,8 +507,8 @@
       "Javascript"
     ],
     "date": {
-      "month": 2,
-      "year": 2018
+      "month": 3,
+      "year": 2022
     }
   },{
     "title": "Within one Arm",
@@ -527,15 +527,15 @@
       "Adobe Premiere Pro"
     ],
     "date": {
-      "month": 5,
-      "year": 2016
+      "month": 11,
+      "year": 2021
     }
   },{
     "title": "a small game",
     "images": [
       {
-        "url": "media/tile.png",
-        "size": "120%",
+        "url": "img/ASmallGame.png",
+        "size": "80%",
         "position": "0% 0%"
       }
     ],
@@ -548,7 +548,7 @@
     ],
     "date": {
       "month": 9,
-      "year": 2017
+      "year": 2020
     }
   },{
     "title": "Fix you",
@@ -590,7 +590,7 @@
     ],
     "date": {
       "month": 4,
-      "year": 2018
+      "year": 2022
     }
   },{
     "title": "farming game",
@@ -610,29 +610,29 @@
       "Unity", "C#"
     ],
     "date": {
-      "month": 10,
-      "year": 2018
+      "month": 9,
+      "year": 2022
     }
   },{
     "title": "Inception",
     "images": [
       {
-        "url": "media/stool.png",
+        "url": "img/Inception.jpg",
         "size": "100%",
-        "position": "-50% 50%"
+        "position": "-20% 50%"
       }
     ],
     "description": "Inspired by Inception movie, where player need to play 3-layers of games simultanoiusly.",
     "links": {
-      "PDF": "",
-      "Documentation": ""
+      
+      "Under Production": ""
     },
     "medium": [
-      "Digital print"
+      "Unity"
     ],
     "date": {
       "month": 11,
-      "year": 2017
+      "year": 2021
     }
   },{
     "title": "Get Together",
@@ -653,8 +653,8 @@
       "Unity"
     ],
     "date": {
-      "month": 11,
-      "year": 2017
+      "month": 7,
+      "year": 2021
     }
   }
 
