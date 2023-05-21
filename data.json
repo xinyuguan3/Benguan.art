@@ -136,8 +136,8 @@
     "title": "Social Simulator",
     "images": [
       {
-        "url": "img/HumanNetwork.png",
-        "size": "150%",
+        "url": "img/HumanNetworkDemo.jpg",
+        "size": "80%",
         "position": "50% 10%"
       }
     ],
@@ -159,7 +159,7 @@
     "title": "为商之道",
     "images": [
       {
-        "url": "img/SilkRoadStory.jpg",
+        "url": "img/SilkRoadStory.png",
         "size": "80%",
         "position": "50% 10%"
       }
@@ -282,7 +282,9 @@
     ],
     "description": "A murder mystery single player game in which chatgpt play as 6 suspects, player needs to typing to them, combing the clues picked from scene and guess who is real killer.",
     "links": {
+      "Itch.io(Win)":"https://gxyguan55.itch.io/eastvillage",
       "Code & Documentation": "https://nova-handbell-640.notion.site/487a761994b94855bf1f8aef9147eda6"
+
     },
     "medium": [
       "Unity",
@@ -653,6 +655,49 @@
     "date": {
       "month": 7,
       "year": 2021
+    }
+  },{
+    "title": "Beyond The Box",
+    "images": [
+      {
+        "url": "img/BeyondTheBox.png",
+        "size": "100%",
+        "position": "70% 50%"
+      }
+    ],
+    "description": "Poster Design for a student film.",
+    "links": {
+      
+      
+    },
+    "medium": [
+      "Poster"
+    ],
+    "date": {
+      "month": 7,
+      "year": 2022
+    }
+  },{
+    "title": "Intimacy",
+    "images": [
+      {
+        "url": "img/Intimacy.png",
+        "size": "80%",
+        "position": "70% 50%"
+      }
+    ],
+    "description": "Improved version of experiment game 'The marriage', narrating the essence of intimacy relationship.",
+    "links": {
+      "Github":"https://github.com/xinyuguan3/Intimacy"
+      
+    },
+    "medium": [
+      "Unity",
+      "Chatgpt-4"
+    ],
+    "date": {
+      "month": 5,
+      "year": 2023
     }
   }
 

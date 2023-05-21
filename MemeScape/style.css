@@ -1,0 +1,12 @@
+circle {
+    transition: r 0.3s, fill 0.3s;
+}
+.blink {
+    animation: blink 1s steps(5, start) 3;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
