@@ -2,14 +2,13 @@
 <html>
 
 <head>
-    <title>Ben Guan - Game Designer,
-       Product Manager, Engineer</title>
+    <title>Ben Guan - 游戏设计师</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portfolio site for Ben Guan." />
     <link href="style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <script src="main.js"></script>
     <script src="hired_work/main.js"></script>
     <script>window.addEventListener("load",init)</script>
@@ -63,6 +62,21 @@
           bcv.onmouseleave=function(){bcv.style.opacity=0.7}
           bcv.onclick=function(){document.location.href="BenCV.pdf"}
         </script>
+
+        <div id="blog_zh" style="opacity:70%;position:absolute;right:145px;top:6.5px;cursor:pointer;z-index:1000">
+          
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewbox="0, 0, 32, 32">
+            <text x="50%" y="50%" font-size="28" fill="#ffffff" font-family="SimHei" text-anchor="middle" dominant-baseline="middle">中</text>
+          </svg>
+        </div>
+        <script>
+          var bblog = document.getElementById("blog_zh");
+          bblog.onmouseenter=function(){bblog.style.opacity=1.0}
+          bblog.onmouseleave=function(){bblog.style.opacity=0.7}
+          bblog.onclick=function(){document.location.href="chhome.html"}
+        </script>
+
+<!-- <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"></svg> -->
          
       </tr>
     </table>
@@ -75,29 +89,48 @@
     <h1>Hi, I'm Ben.</h1>
     <h2>I enjoy building unique digital entertaining products that focus on human interaction and immersion.</h2>
 
-    <h3>Things about me</h3>
+    <div style="padding: 20px 0px 0px 0px;"></div>
+    <h3>最近的中文博客</h3>
     <ul>
-        <li>I am an artist, product manager and game designer.</li>
+      <li>
+        <a href="blogs/war_of_art.html">关于创业和解决拖延</a>
+        <span class="date">2024-08-24</span>
+      </li>
+      <li>
+        <a href="https://www.bbc.com/news/technology-61228517">关于与神对话</a>
+        <span class="date">2022-04-01</span>
+      </li>
+      <li>
+        <a href="https://www.bbc.com/news/technology-61228517">How to make a game that can cure mental illness</a>
+        <span class="date">2022-04-01</span>
+      </li>
+      <li>
+        <a href="https://www.bbc.com/news/technology-61228517">How to make a game that can cure mental illness</a>
+        <span class="date">2022-04-01</span>
+      </li>
+      <li>
+        <a href="https://www.bbc.com/news/technology-61228517">How to make a game that can cure mental illness</a>
+        <span class="date">2022-04-01</span>
+      </li>
+    </ul>
+
+    <h3>Things about me</h3>
+        <li>I am an artist and game designer.</li>
         <li>I live in <span class="strike">Urumqi</span> Hong Kong.</li>
-        <li>
+        <!-- <li>
             I often learn by reading code
-            <span class="username">guanxinyu</span
+            <span class="username">BenGuan</span
       >.
-    </li>
+    </li> -->
     
     <li>
-      <ul>
-        You may be interested in four projects I created in UG period:
+
+        You may be interested in my recent creative game projects:
       <li><a
         href=""
         class="art-title"
         >Social Dilemma (2020)</a
       >(Play as social media algorithm, make money for company and make decisions that affect people's life),</li>
-      <li><a
-        href=""
-        class="art-title"
-        >万历元年 (2022)</a
-      >(Play as an young emperor in Ming Dynasty, make decisions that affect the whole country),</li>
       <li><a
         href=""
         class="art-title"
@@ -108,13 +141,13 @@
         href=""
         class="art-title"
         >The Society (2023)</a
-      >(A simulation of society running by 200 AI agents in which each has unique personality, internal spiritual world and memory).</li></ul>
+      >(A simulation of society running by 200 AI agents in which each has unique personality, internal spiritual world and memory).</li>
     </li>
     <li>
       When making games,
       I tend to focus on sociology simulation and immersion design.
     </li>
-  </ul>
+ 
   </div>
   <div style="padding: 60px 0px 0px 0px;"></div>
   <table align="center" style="width:60%;"><tr>
@@ -219,10 +252,11 @@
         <li><a href="www.linkedin.com/in/xinyu-guan-049220239">LinkedIn</a></li>
         <!-- <li><a href="https://www.reddit.com/user/BenGuan">Reddit</a></li> -->
         <li><a href="home.html">Old Version Website（旧版网站）</a></li>
-        <li><a href="chhome.html">中文碎碎念</a></li>
+        <li><a href="pages_zh/index.html">中文碎碎念</a></li>
         <img class="logo" src="img/MolinLogo2.svg" alt="logo" />
         <li>Lover^_^&uarr;</li>
         <!-- <li>Lover&#21c8;</li> -->
+        
         
       </ul>
       
